@@ -1,0 +1,145 @@
+header {
+  border-top: solid 10px #326496;
+  background-color: white;
+}
+
+.logo {
+  padding-left: 20px;
+}
+.hotline {
+  margin-top: 20px;
+  float: right;
+}
+.hotline.heading {
+  font-weight: bold;
+  margin-right: 1em;
+}
+.hotline.ppj {
+  margin-top: 0;
+  margin-right: 1em;
+}
+.hotline.text {
+  margin-right: 20px;
+}
+.hotline i {
+  margin-right: 10px;
+}
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  overflow:  hidden;
+}
+.col-xs-6.col-sm-6 > .hotline.ppj {
+  display: hidden;
+}
+
+/** NAVBAR **/
+
+.navbar {
+  -webkit-border-radius: 0 0 5px 5px;
+          border-radius: 0 0 5px 5px;
+}
+
+.navbar-default {
+  background-color: #326496;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #F8E71C;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #F8E71C;
+  background-color: #2C5D8D;
+}
+
+/** CONTENT **/
+
+/** PRODUCT CARD **/
+.kad-perkhidmatan {
+  height: 200px;
+  margin-bottom: 20px;
+/*  background-color: green;
+  webkit-border-radius: 5px;
+  border-radius: 5px;
+*/}
+
+.kad-perkhidmatan > h4 {
+  padding: 17px 10px 0 10px;
+  margin-bottom: 0;
+  text-align: center;
+  overflow-x: hidden;
+  height: 60px;
+  background-color: pink;
+  -webkit-border-radius: 5px 5px 0 0;
+          border-radius: 5px 5px 0 0;
+}
+
+.kad-perkhidmatan img {
+  height: auto;
+  max-width: 100%;
+  -webkit-border-radius: 0 0 5px 5px;
+          border-radius: 0 0 5px 5px;
+}
+
+/** FOOTER **/
+
+footer {
+  /*margin-top: 20px;*/
+  background-color: #326496;
+  color: white;
+  border-bottom: 35px solid #254B71;
+}
+
+.footer {
+  margin-top: 1em;
+  border-right: 1px dotted #fff;
+  display: block;
+}
+.footer.media-sosial {
+  border-right: none;
+}
+
+footer .footer-heading {
+  height: 50px;
+}
+footer .footer-heading i {
+  position: relative;
+  font-size: 2.7em;
+  color: #98b1ca;
+}
+footer .footer-heading h4 {
+  position: relative;
+  top: -40px;
+  margin-left: 3em;
+  margin-right: 4em;
+  padding-bottom: 2px;
+  border-bottom: solid 2px yellow;
+}
+
+footer .copyright {
+  position: absolute;
+  margin-top: 10px
+}
+
+/** slider plugin custom **/
+
+.bx-wrapper {
+  margin-bottom: 0;
+}
+
+.bx-wrapper .bx-pager {
+  bottom: 10px;
+}
+
+.bx-wrapper .bx-viewport {
+  box-shadow: none;
+  border: none;
+  left: 0;
+}
