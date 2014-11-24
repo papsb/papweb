@@ -3,7 +3,8 @@
 *
 * Description
 */
-angular.module('papweb', [])
+
+angular.module('papweb', ['ui.router'])
 
 .controller('HeaderCtrl', ['$scope', function($scope){
   var vm = this;
@@ -14,7 +15,3 @@ angular.module('papweb', [])
   });
 
 }]);
-
-// $(document).ready(function() {
-//   $('.bxslider').bxSlider();
-// });

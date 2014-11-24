@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PENGANGKUTAN AWAM PUTRAJAYA SDN BHD</title>
+  <title data-ng-bind="$state.current.title + ' - Pengangkutan Awam Putrajaya Sdn. Bhd.'">PENGANGKUTAN AWAM PUTRAJAYA SDN BHD</title>
   <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="libs/bxslider-4/jquery.bxslider.css">
   <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
@@ -17,15 +17,15 @@
     <div class="navbar navbar-default">
       <div class="container">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#"><i class="glyphicon glyphicon-home"></i> Laman Utama</a></li>
-          <li><a href="about-us.html"><i class="glyphicon glyphicon-briefcase"></i> Mengenai PAPSB</a></li>
-          <li><a href="perkhidmatan-bas.html"><i class="glyphicon glyphicon-road"></i> Perkhidmatan</a></li>
-          <li><a href="berita-peristiwa.html"><i class="glyphicon glyphicon-camera"></i> Berita dan Peristiwa</a></li>
+          <li ui-sref-active="active"><a ui-sref="home"><i class="glyphicon glyphicon-home"></i> Laman Utama</a></li>
+          <li ui-sref-active="active"><a ui-sref="about"><i class="glyphicon glyphicon-briefcase"></i> Mengenai PAPSB</a></li>
+          <li ui-sref-active="active"><a ui-sref="perkhidmatan-bas.html"><i class="glyphicon glyphicon-road"></i> Perkhidmatan</a></li>
+          <li ui-sref-active="active"><a ui-sref="berita-peristiwa.html"><i class="glyphicon glyphicon-camera"></i> Berita dan Peristiwa</a></li>
         </ul>
       </div>
     </div>
   <!-- </div> -->
-  <section class="row">
+  <section class="row" ui-view>
     <div class="col-sm-9">
       <div class="row">
         <div class="col-md-4 col-sm-6 col-xs-12">
@@ -73,11 +73,19 @@
   <ng-include src="'views/footer.html'"></ng-include>
 </div> <!-- end container -->
   
+<!-- vendor script -->
 <script type="text/javascript" src="libs/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="libs/angular/angular.min.js"></script>
 <script type="text/javascript" src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="libs/angular-ui-router/release/angular-ui-router.min.js"></script>
 <script type="text/javascript" src="libs/bxslider-4/jquery.bxslider.min.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
+<!-- end vendor script -->
+
+<!-- client script -->
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/app.route.js"></script>
+<!-- end client script -->
+
 <script src="http://localhost:35729/livereload.js?snipver=1"></script>
 </body>
 </html>
