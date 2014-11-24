@@ -43,19 +43,15 @@ function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
           templateUrl : 'views/about/about.visi.html',
           title       : 'Visi, Misi & Objectif',
         })
-    //.state('workshop.index', {
-    //  url         : '/index',
-    //  templateUrl : 'views/workshop.html'
-    //})
-
-    .state('workshop.message1', {
-      url         : '/message1',
-      templateUrl : 'views/workshop.message1.html',
-      title       : 'Message 1',
-      controller  : function ($scope, toastr) {
-        $scope.names = ["Nizam", "Hassan", "Adam", "Burhan"];
-        toastr.success('The message from message 1: ' + $scope.names[2]);
-      }
-    })
+        .state('about.pengarah', {
+          url         : '/lembaga-pengarah',
+          templateUrl : 'views/about/about.pengarah.html',
+          title       : 'Ahli Lembaga Pengarah',
+        })
+        .state('about.carta', {
+          url         : '/carta-organisasi',
+          templateUrl : 'views/about/about.carta.html',
+          title       : 'Carta Organisasi',
+        })
 
 };
