@@ -5,6 +5,7 @@
   <title>PENGANGKUTAN AWAM PUTRAJAYA SDN BHD</title>
   <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="libs/bxslider-4/jquery.bxslider.css">
+  <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -50,57 +51,103 @@
     <div class="navbar navbar-default">
       <div class="container">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#"><i class="glyphicon glyphicon-home"></i> Laman Utama</a></li>
-          <li><a href="#"><i class="glyphicon glyphicon-briefcase"></i> Mengenai PAPSB</a></li>
-          <li><a href="#"><i class="glyphicon glyphicon-road"></i> Perkhidmatan</a></li>
-          <li><a href="#"><i class="glyphicon glyphicon-camera"></i> Berita dan Peristiwa</a></li>
+          <li><a href="index.html"><i class="glyphicon glyphicon-home"></i> Laman Utama</a></li>
+          <li><a href="about-us.html"><i class="glyphicon glyphicon-briefcase"></i> Mengenai PAPSB</a></li>
+          <li class="active"><a href="perkhidmatan-bas.html"><i class="glyphicon glyphicon-road"></i> Perkhidmatan</a></li>
+          <li class="disabled"><a href="#"><i class="glyphicon glyphicon-camera"></i> Berita dan Peristiwa</a></li>
         </ul>
       </div>
     </div>
   <!-- </div> -->
-  <section class="row">
-    <div class="col-sm-9">
+  <section class="content">
       <div class="row">
-        <div class="col-xs-4">
-          <div class="kad-perkhidmatan">
-            <h4>PERKHIDMATAN BAS</h4>
-            <img src="img/perkhidmatan-bas.jpg" alt="">
+        <div class="col-sm-3">
+          <style>
+
+            table {
+              width:100%;
+            }
+            table, th, td {
+              border: 1px solid grey;
+              border-collapse: collapse;
+            }
+            th, td {
+              padding: 7px;
+              text-align: auto;
+            }
+            table#t01 tr:nth-child(even) {
+              background-color: #FFFFFF;
+            }
+            table#t01 tr:nth-child(odd) {
+              background-color:#E0F2F7;
+            }
+            table#t01 th	{
+              background-color: #326496;
+              color: white;
+            }
+
+          </style> 
+          <div class="nav-sidebar">
+            <!-- fa fa-caret-right -->
+            <ul class="nav nav-pills nav-stacked">
+              <li><a href="perkhidmatan-bas.html"><i class="fa fa-caret-right">&nbsp;</i> Bas Henti - Henti</a></li>
+              <li class="active"><a href="perkhidmatan-bas-tambang.html"><i class="fa fa-caret-right">&nbsp;</i> Jadual Tambang</a></li>
+              <li><a href="perkhidmatan-bas-sewa-khas.html"><i class="fa fa-caret-right">&nbsp;</i> Sewa Khas</a></li>
+              <li><a href="perkhidmatan-bas-sightseeing.html"><i class="fa fa-caret-right">&nbsp;</i> Putrajaya Sightseeing</a></li>
+            </ul>
           </div>
         </div>
-        <div class="col-xs-4">
-          <div class="kad-perkhidmatan">
-            <h4>PUTRAJAYA SENTRAL</h4>
-            <img src="img/putrajaya-sentral.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-xs-4">
-          <div class="kad-perkhidmatan">
-            <h4>PARK &amp; RIDE</h4>
-            <img src="img/park-and-ride.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-xs-4">
-          <div class="kad-perkhidmatan">
-            <h4>TEMPAT LETAK KERETA</h4>
-            <img src="img/tlk.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-xs-4">
-          <div class="kad-perkhidmatan">
-            <h4>PENGIKLANAN</h4>
-            <img src="img/pengiklanan.jpg" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="sidebar">
-        <div class="notis">
-          <h4>PENGUMUMAN</h4>
-          <p>Makluman penutupan jalan di Persiaran Perdana Presint 2,3.</p>
-        </div>
-      </div>
-    </div>
+	<div class="col-sm-9">
+	<p><b>Berikut merupakan Kadar Tambang mengikut Zon</p>
+<table id="t01">
+<tr>
+<th colspan="5"><b><center>Kadar Tambang</th>
+</tr>
+<tr>
+    <th><b>Kadar Tambang</th>
+    <th><center>Zon Putrajaya</center></th>
+	<th><center>Zon Cyberjaya</center></th>
+	<th><Center>Zon Desa Pinggiran Putra</th>
+</tr>
+<tr><!--2-->
+    <td><b>Zon Putrajaya<br>- Dewasa</td>
+    <td><center>RM 0.50 Sehala</td>		
+	<td><center>RM 1.50 Sehala</td>
+	<td><center>RM 1.00 Sehala</td>
+</tr>
+<tr><!--3-->
+    <td><b>Konsesi</td>
+    <td><center>RM 0.30 Sehala</td>		
+	<td><center>RM 1.00 Sehala</td>
+	<td><center>RM 0.50 Sehala</td>
+</tr>
+<tr><!--4-->
+    <td><b>Zon Cyberjaya<br>- Dewasa</td>
+    <td><center>RM 1.50 Sehala</td>		
+	<td><center>RM 1.00 Sehala</td>
+	<td></td>
+</tr>
+<tr><!--5-->
+    <td><b>- Konsesi</td>
+    <td><center>RM 1.00 Sehala</td>		
+	<td><center>RM 0.50 Sehala</td>
+	<td></td>
+</tr>
+<tr><!--6-->
+    <td><b>Zon Desa Pinggiran Putra<br>- Dewasa</td>
+    <td><center>RM 1.00 Sehala</td>		
+	<td></td>
+	<td><center>RM 0.50 Sehala</td>
+</tr>
+<tr><!--7-->
+    <td><b>- Konsesi</td>
+    <td><center>RM 0.50 Sehala</td>		
+	<td></td>
+	<td><center>RM 0.30 Sehala</td>
+</tr>
+</table>
+<br>
+</div>
   </section>
   <footer class="row">
     <div class="col-xs-4">

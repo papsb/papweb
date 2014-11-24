@@ -1,0 +1,48 @@
+/** CONTENT **/
+
+/** PRODUCT CARD **/
+.kad-sightseeing {
+  height: 200px;
+  margin-bottom: 20px;
+/*  background-color: green;
+  webkit-border-radius: 5px;
+  border-radius: 5px;
+*/}
+
+.kad-sightseeing > h4 {
+  padding: 17px 10px 0 10px;
+  margin-bottom: 0;
+  text-align: center;
+  overflow-x: hidden;
+  height: 60px;
+  /*background-color: pink;*/
+  -webkit-border-radius: 5px 5px 0 0;
+          border-radius: 5px 5px 0 0;
+}
+
+.kad-sightseeing img {
+  height: auto;
+  max-width: 100%;
+  -webkit-border-radius: 0 0 5px 5px;
+          border-radius: 0 0 5px 5px;
+}
+
+.kad-sightseeing h4.kad-sightseeing-bas {
+  background-color: #F8E71C;
+}
+
+.kad-sightseeing h4.kad-putrajaya-sentral {
+  background-color: #50E3C2;
+}
+
+.kad-sightseeing h4.kad-park-and-ride {
+  background-color: #7ED321;
+}
+
+.kad-sightseeing h4.kad-tempat-letak-kereta {
+  background-color: #CB752A;
+}
+
+.kad-sightseeing h4.kad-pengiklanan {
+  background-color: #F05165;
+}

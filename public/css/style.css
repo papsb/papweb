@@ -3,6 +3,10 @@ header {
   background-color: white;
 }
 
+body {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
 .logo {
   padding-left: 20px;
 }
@@ -46,6 +50,10 @@ header {
 
 .navbar-default .navbar-nav > li > a {
   color: #fff;
+  font-size: 1.1em;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  /*letter-spacing: normal;*/
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -63,35 +71,116 @@ header {
 
 /** PRODUCT CARD **/
 .kad-perkhidmatan {
-  height: 200px;
-  margin-bottom: 20px;
+  min-height: 200px;
+  margin-bottom: 10px;
 /*  background-color: green;
   webkit-border-radius: 5px;
   border-radius: 5px;
 */}
 
 .kad-perkhidmatan > h4 {
+  font-weight: 800;
   padding: 17px 10px 0 10px;
   margin-bottom: 0;
   text-align: center;
   overflow-x: hidden;
   height: 60px;
-  background-color: pink;
+  /*background-color: pink;*/
   -webkit-border-radius: 5px 5px 0 0;
           border-radius: 5px 5px 0 0;
 }
 
+.kad-perkhidmatan > h4 a {
+  color: #111;
+}
+
 .kad-perkhidmatan img {
   height: auto;
+  min-width: 100%;
   max-width: 100%;
+  overflow: hidden;
   -webkit-border-radius: 0 0 5px 5px;
           border-radius: 0 0 5px 5px;
+}
+
+.kad-perkhidmatan h4.kad-perkhidmatan-bas {
+  background-color: #F8E71C;
+}
+
+.kad-perkhidmatan h4.kad-putrajaya-sentral {
+  background-color: #50E3C2;
+}
+
+.kad-perkhidmatan h4.kad-park-and-ride {
+  background-color: #7ED321;
+}
+
+.kad-perkhidmatan h4.kad-tempat-letak-kereta {
+  background-color: #CB752A;
+}
+
+.kad-perkhidmatan h4.kad-pengiklanan {
+  background-color: #F05165;
+}
+
+.kad-perkhidmatan h4.kad-spektra {
+  background-color: #8E44AD;
+}
+
+/** NAV SIDEBAR **/
+
+.nav-sidebar .nav-pills > li > a {
+  color: #326496;
+}
+.nav-sidebar .nav-pills > li > a > i {
+  color: #f8e71c;
+}
+.nav-sidebar .nav-pills > li > a:hover,
+.nav-sidebar .nav-pills > li > a:focus {
+  /* color: #F8E71C; */
+  /* background-color: transparent; */
+}
+.nav-sidebar .nav-pills > li.active > a,
+.nav-sidebar .nav-pills > li.active > a:hover,
+.nav-sidebar .nav-pills > li.active > a:focus {
+  color: white;
+  background-color: #326496;
+}
+
+/** SIDEBAR **/
+
+.notis {
+  margin-top: 10px;
+  background-color: #FFF9AE;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(255,249,174,0.75);
+  border: 2px dashed #979797;
+  color: #D0021B;
+  overflow: hidden;
+}
+
+.notis h4 {
+  color: #4A4A4A;
+  font-weight: bolder;
+}
+
+.notis img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sidebar-banner {
+  margin-top: 20px;
+}
+.sidebar-banner img {
+  width: 100%;
 }
 
 /** FOOTER **/
 
 footer {
-  /*margin-top: 20px;*/
+  margin-top: 20px;
   background-color: #326496;
   color: white;
   border-bottom: 35px solid #254B71;

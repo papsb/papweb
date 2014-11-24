@@ -1,2 +1,3 @@
-new-token/
-resources/
+.idea
+node_modules
+public/libs
