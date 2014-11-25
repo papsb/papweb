@@ -293,3 +293,17 @@ table#t01 th	{
     background-color: #326496;
     color: white;
 }
+
+.zoom {
+width: 40%;
+-webkit-transition: width 1.4s ease-in-out;
+-moz-transition: width 1.4s ease-in-out;
+-o-transition: width 1.4s ease-in-out;
+transition: width 1.4s ease-in-out;
+}
+.zoom:hover {
+width: 90%;
+}
+
+.outset {border-style: outset;
+}
