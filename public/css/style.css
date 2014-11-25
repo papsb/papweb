@@ -1,12 +1,21 @@
 header {
   border-top: solid 10px #326496;
-  background-color: white;
+  /*background-color: white;*/
 }
 
 body {
   font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background: #f3f3f3;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #222;
+  font-weight: 600;
+}
+.container {
+  background: white;
+}
 .logo {
   padding-left: 20px;
 }
@@ -39,26 +48,29 @@ body {
 
 /** NAVBAR **/
 
-.navbar {
-  -webkit-border-radius: 0 0 5px 5px;
-          border-radius: 0 0 5px 5px;
+.container.container-navbar {
+  background: #326496;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
 }
 
-.navbar-default {
-  background-color: #326496;
+.navbar.navbar-default {
+  font-size: 14px;
 }
 
 .navbar-default .navbar-nav > li > a {
   color: #fff;
-  font-size: 1.1em;
-  font-weight: 300;
+  /*font-size: 1.1em;*/
+  font-size: 14px;
+  font-weight: 200;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   /*letter-spacing: normal;*/
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #F8E71C;
-  background-color: transparent;
+  background-color: #2C5D8D;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -73,10 +85,7 @@ body {
 .kad-perkhidmatan {
   min-height: 200px;
   margin-bottom: 10px;
-/*  background-color: green;
-  webkit-border-radius: 5px;
-  border-radius: 5px;
-*/}
+}
 
 .kad-perkhidmatan > h4 {
   font-weight: 800;
@@ -85,11 +94,16 @@ body {
   text-align: center;
   overflow-x: hidden;
   height: 60px;
-  /*background-color: pink;*/
+  -webkite-text-shadow: #ccc 0.5px 0.5px 0;
+           text-shadow: #ccc 0.5px 0.5px 0;
   -webkit-border-radius: 5px 5px 0 0;
           border-radius: 5px 5px 0 0;
 }
 
+.kad-perkhidmatan > h4 a:hover {
+  color: #3e3e3e;
+  text-decoration: none;
+}
 .kad-perkhidmatan > h4 a {
   color: #111;
 }
@@ -165,6 +179,7 @@ body {
   font-weight: bolder;
 }
 
+.img-100,
 .notis img {
   max-width: 100%;
   height: auto;
@@ -210,6 +225,11 @@ footer .footer-heading h4 {
   margin-right: 4em;
   padding-bottom: 2px;
   border-bottom: solid 2px yellow;
+}
+
+footer h4,
+footer h5 {
+  color: #fefefe;
 }
 
 footer .copyright {

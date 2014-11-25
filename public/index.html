@@ -5,32 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title data-ng-bind="$state.current.title + ' - Pengangkutan Awam Putrajaya Sdn. Bhd.'">PENGANGKUTAN AWAM PUTRAJAYA SDN BHD</title>
   <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="libs/bxslider-4/jquery.bxslider.css">
   <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="libs/bxslider-4/jquery.bxslider.css">
   <link rel="stylesheet" href="css/style.css">
+  <style type="text/css">
+    [ng-cloak].splash { display: block !important; }
+    [ng-cloak] { display: none; }
+    .splash { background: blue; }
+  </style>
 </head>
 <body>
 
-<div class="container">
+<div class="container" ng-cloak>
   <ng-include src="'views/header.html'" scope="" onload=""></ng-include>
-  <!-- <div class="row"> -->
+  <div class="row">
     <div class="navbar navbar-default">
-      <div class="container">
+      <div class="container container-navbar">
         <ul class="nav navbar-nav">
           <li ui-sref-active="active"><a ui-sref="home"><i class="glyphicon glyphicon-home"></i> Laman Utama</a></li>
           <li ui-sref-active="active"><a ui-sref="about"><i class="glyphicon glyphicon-briefcase"></i> Mengenai PAPSB</a></li>
-          <li ui-sref-active="active"><a ui-sref="perkhidmatan-bas.html"><i class="glyphicon glyphicon-road"></i> Perkhidmatan</a></li>
+          <li ui-sref-active="active"><a ui-sref="perkhidmatan-bas"><i class="glyphicon glyphicon-road"></i> Perkhidmatan</a></li>
           <li ui-sref-active="active"><a ui-sref="berita-peristiwa.html"><i class="glyphicon glyphicon-camera"></i> Berita dan Peristiwa</a></li>
         </ul>
       </div>
     </div>
-  <!-- </div> -->
+  </div>
   <section class="row" ui-view>
     <div class="col-sm-9">
       <div class="row">
         <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="kad-perkhidmatan">
-            <h4 class="kad-perkhidmatan-bas"><a href="perkhidmatan-bas.html">PERKHIDMATAN BAS</a></h4>
+            <h4 class="kad-perkhidmatan-bas"><a ui-sref="perkhidmatan-bas">PERKHIDMATAN BAS</a></h4>
             <img src="img/perkhidmatan-bas.jpg" alt="">
           </div>
         </div>
@@ -42,13 +47,13 @@
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="kad-perkhidmatan">
-            <h4 class="kad-park-and-ride"><a href="#">PARK &amp; RIDE</a></h4>
+            <h4 class="kad-park-and-ride"><a ui-sref="park-n-ride">PARK &amp; RIDE</a></h4>
             <img src="img/park-and-ride.jpg" alt="">
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="kad-perkhidmatan">
-            <h4 class="kad-tempat-letak-kereta"><a href="#">TEMPAT LETAK KERETA</a></h4>
+            <h4 class="kad-tempat-letak-kereta"><a ui-sref="tlk">TEMPAT LETAK KERETA</a></h4>
             <img src="img/tlk.jpg" alt="">
           </div>
         </div>
@@ -61,7 +66,7 @@
         <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="kad-perkhidmatan">
             <h4 class="kad-spektra"><a href="#">SPEKTRA</a></h4>
-            <img src="img/pengiklanan.jpg" alt="">
+            <img src="img/spektra.jpg" alt="">
           </div>
         </div>
       </div>
