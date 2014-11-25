@@ -31,8 +31,7 @@ function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
       controller  : function ($state){
         $state.go('.about-us');
       }
-    })
-
+    }) 
         .state('about.about-us', {
           url         : '/about-us',
           templateUrl : 'views/about/about.about-us.html',
@@ -62,8 +61,7 @@ function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
       controller  : function ($state){
         $state.go('.henti-henti');
       }
-    })
-
+    }) 
         .state('perkhidmatan-bas.henti-henti', {
           url         : '/bas-henti-henti',
           templateUrl : 'views/perkhidmatan-bas/perkhidmatan-bas.henti-henti.html',
@@ -85,22 +83,58 @@ function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
           title       : 'Putrajaya Sightseeing',
         })
 
+    // route for the spektra section
+    .state('spektra', {
+      url         : '/spektra',
+      templateUrl : 'views/spektra/spektra.html',
+      title       : 'Konsep SPEKTRA',
+      controller  : function ($state){
+        $state.go('.konsep');
+      }
+    })
+
+        .state('spektra.konsep', {
+          url         : '/konsep-spektra',
+          templateUrl : 'views/spektra/spektra.konsep.html',
+          title       : 'Konsep SPEKTRA',
+        })
+        .state('spektra.spb', {
+          url         : '/sistem-pengurusan-bas',
+          templateUrl : 'views/spektra/spektra.spb.html',
+          title       : 'Sistem Pengurusan Bas',
+        })
+        .state('spektra.smb', {
+          url         : '/sistem-maklumat-bas',
+          templateUrl : 'views/spektra/spektra.smb.html',
+          title       : 'Sistem Maklumat Bas',
+        })
+        .state('spektra.ste', {
+          url         : '/sistem-tiket-elektronik',
+          templateUrl : 'views/spektra/spektra.ste.html',
+          title       : 'Sistem Tiket Elektronik',
+        })
+        .state('spektra.spa', {
+          url         : '/sistem-parkir-automatik',
+          templateUrl : 'views/spektra/spektra.spa.html',
+          title       : 'Sistem Parkir Automatik',
+        })
+
+    // route for the putrajaya sentral section
+    .state('sentral', {
+      url         : '/putrajaya-sentral',
+      templateUrl : 'views/putrajaya-sentral.html',
+      title       : 'Putrajaya Sentral',
+    })
     // route for the tlk section
     .state('tlk', {
       url         : '/tempat-letak-kereta',
       templateUrl : 'views/tempat-letak-kereta.html',
       title       : 'Tempat Letak Kereta',
-      controller  : function ($state){
-        // $state.go('.henti-henti');
-      }
     })
     // route for the park&ride section
     .state('park-n-ride', {
       url         : '/park-and-ride',
       templateUrl : 'views/park-and-ride.html',
       title       : 'Park & Ride',
-      controller  : function ($state){
-        // $state.go('.henti-henti');
-      }
     })
 };

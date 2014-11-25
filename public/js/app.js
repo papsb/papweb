@@ -11,7 +11,9 @@ angular.module('papweb', ['ui.router'])
 
   angular.element(document).ready(function () {
     console.log('from document ready');
-    angular.element('.bxslider').bxSlider();
+    angular.element('.bxslider').bxSlider({
+      // mode: 'fade'
+    });
   });
 
 }]);
