@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 .kad-perkhidmatan > h4 {
   font-weight: 800;
   padding: 17px 10px 0 10px;
-  margin-bottom: 0;
+  margin: 0;
   text-align: center;
   overflow-x: hidden;
   height: 60px;
@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 /** SIDEBAR **/
 
 .notis {
-  margin-top: 10px;
+  margin-bottom: 10px;
   background-color: #FFF9AE;
   padding: 10px;
   border-radius: 5px;
