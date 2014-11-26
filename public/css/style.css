@@ -15,10 +15,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Oswald, Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: #222;
-}
-.container h2 {
-  -webkite-text-shadow: #ccc 0.5px 0.5px 0;
-           text-shadow: #ccc 0.5px 0.5px 0;
+  -webkit-text-shadow: #ccc 0.5px 0.5px 0;
+          text-shadow: #ccc 0.5px 0.5px 0;
 }
 .container {
   background: white;
@@ -169,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-sidebar .nav-pills > li.active > a:focus {
   color: white;
   background-color: #326496;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 /** SIDEBAR **/
@@ -238,9 +236,11 @@ footer .footer-heading h4 {
   border-bottom: solid 2px yellow;
 }
 
-footer h4,
-footer h5 {
+footer .footer h4,
+footer .footer h5 {
   color: #fefefe;
+  -webkit-text-shadow: #333 0.5px 0.5px 0;
+          text-shadow: #333 0.5px 0.5px 0;
 }
 
 footer .copyright {
