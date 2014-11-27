@@ -137,4 +137,10 @@ function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
       templateUrl : 'views/park-and-ride.html',
       title       : 'Park & Ride',
     })
+    // route for the berita dan peristiwa section
+    .state('berita-peristiwa', {
+      url         : '/berita-dan-peristiwa',
+      templateUrl : 'views/berita-dan-peristiwa.html',
+      title       : 'Berita & Peristiwa',
+    })
 };
