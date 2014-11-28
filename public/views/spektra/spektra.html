@@ -1,0 +1,29 @@
+
+<style>
+  table{width:100%}table,th,td{border:1px solid gray;border-collapse:collapse}th,td{padding:7px;text-align:auto}table#t01 tr:nth-child(even) {background-color:#fff}table#t01 tr:nth-child(odd) {background-color:#e0f2f7}table#t01 th{background-color:#326496;color:#fff}
+  h2 {
+    /*padding: 20px 10px 0 10px;*/
+    padding-top: 15px;
+    margin-top: 0;
+    text-align: center;
+    height: 60px;
+    background-color:#8e44ad;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+  }
+</style>
+<div class="col-sm-3">
+<div class="nav-sidebar">
+    <ul class="nav nav-pills nav-stacked">
+      <!-- write here -->
+      <li ui-sref-active="active"><a ui-sref=".konsep"><i class="fa fa-caret-right">&nbsp;</i> Konsep SPEKTRA</a></li>
+      <li ui-sref-active="active"><a ui-sref=".spb"><i class="fa fa-caret-right">&nbsp;</i> Sistem Pengurusan Bas</a></li>
+      <li ui-sref-active="active"><a ui-sref=".smb"><i class="fa fa-caret-right">&nbsp;</i> Sistem Maklumat Bas</a></li>
+      <li ui-sref-active="active"><a ui-sref=".ste"><i class="fa fa-caret-right">&nbsp;</i> Sistem Tiket Elektronik</a></li>
+      <li ui-sref-active="active"><a ui-sref=".spa"><i class="fa fa-caret-right">&nbsp;</i> Sistem Parkir Automatik</a></li>
+      <!-- end write here -->
+    </ul>
+  </div>
+</div>
+<div class="col-sm-9" ui-view> 
+</div> <!-- end col-sm-9> 
