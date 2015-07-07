@@ -10,10 +10,7 @@ angular.module('papweb', ['ui.router'])
   var vm = this;
 
   angular.element(document).ready(function () {
-    console.log('from document ready');
-    angular.element('.bxslider').bxSlider({
-      // mode: 'fade'
-    });
+    angular.element('.bxslider').bxSlider();
   });
 
 }]);
