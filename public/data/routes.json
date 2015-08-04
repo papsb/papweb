@@ -1,0 +1,15 @@
+{
+  [
+    "route_name": "L01",
+    "destinations": [ "Putrajaya Sentral", "P9", "P9G", "P8", "Kompleks ABCDE", "Alamanda", "P16", "P8", "P9G", "P9", "Putrajaya Sentral" ]
+  ],
+  [
+    "route_name": "L02",
+    "destinations": [ "P&R P14", "P14", "Apt. P15", "Alamanda", "Kompleks ABCDE", "P8", "P8H (Ayer@8)", "P9", "P9F", "Putrajaya Sentral", "P9", "P9B", "P9F", "P9C/1", "P8H (Ayer@8)", "P8", "Kompleks ABCDE", "Alamanda", "Apt. P15", "P14", "P&R P14" ]
+  ],
+  [
+    "route_name": "L03",
+    "destinations": [ "Putrajaya Sentral", "P9", "P9B", "P9F", "P8H (Ayer@8)", "P2,3", "P18", "Wisma Putra", "P18", "P3,2", "P8H (Ayer@8)", "P9", "P9B", "P9F", "Putrajaya Sentral" ]
+  ]
+}
+
