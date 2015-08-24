@@ -67,6 +67,7 @@ function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
           url         : '/bas-henti-henti',
           templateUrl : 'views/perkhidmatan-bas/perkhidmatan-bas.henti-henti.html',
           title       : 'Perkhidmatan Bas Henti-Henti',
+          controller  : 'RouteCtrl as vm'
         })
         .state('perkhidmatan-bas.tambang', {
           url         : '/jadual-tambang',
