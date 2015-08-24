@@ -286,9 +286,6 @@ footer .copyright {
 
 .bx-wrapper {
   margin-bottom: 0;
-}
-
-.bx-wrapper .bx-viewport {
   box-shadow: none;
   border: none;
   left: 0;
