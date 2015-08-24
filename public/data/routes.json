@@ -1,15 +1,77 @@
 {
-  [
-    "route_name": "L01",
-    "destinations": [ "Putrajaya Sentral", "P9", "P9G", "P8", "Kompleks ABCDE", "Alamanda", "P16", "P8", "P9G", "P9", "Putrajaya Sentral" ]
+  "route_local" : [
+    {
+      "route_name": "L01",
+      "outbound": [ "Putrajaya Sentral", "P9", "P9G", "P8", "Kompleks ABCDE", "Alamanda", "P16" ],
+      "inbound": [ "P16", "P8", "P9G", "P9", "Putrajaya Sentral" ]
+    },
+    {
+      "route_name": "L02",
+      "outbound": [ "P&R P14", "P14", "Apt. P15", "Alamanda", "Kompleks ABCDE", "P8", "P8H (Ayer@8)", "P9", "P9F", "Putrajaya Sentral" ],
+      "inbound": [ "Putrajaya Sentral", "P9", "P9B", "P9F", "P9C/1", "P8H (Ayer@8)", "P8", "Kompleks ABCDE", "Alamanda", "Apt. P15", "P14", "P&R P14" ]
+    },
+    {
+      "route_name": "L03",
+      "outbound": [ "Putrajaya Sentral", "P9", "P9B", "P9F", "P8H (Ayer@8)", "P2,3", "P18", "Wisma Putra" ],
+      "inbound": [ "Wisma Putra", "P18", "P3,2", "P8H (Ayer@8)", "P9", "P9B", "P9F", "Putrajaya Sentral" ]
+    },
+    {
+      "route_name": "L04",
+      "outbound": [ "Putrajaya Sentral", "P9", "P9C/1", "P2,3,4,5", "PICC" ],
+      "inbound": [ "PICC", "Apt. 5R3", "P4,3,2", "P9C/1", "Putrajaya Sentral" ]
+    },
+    {
+      "route_name": "L05",
+      "outbound": [ "P&R P14", "P14", "Kompleks ABCDE", "Alamanda", "P16", "P17", "P18", "P,3,2", "P9G", "Putrajaya Sentral" ],
+      "inbound": [ "Putrajaya Sentral", "P9", "P9B", "P9G", "P8", "P2,3", "P18", "P17", "P16", "Alamanda", "Kompleks ABCDE", "P14", "P&R P14" ]
+    },
+    {
+      "route_name": "L07",
+      "outbound": [ "Putrajaya Sentral", "P9", "P11", "Putra Damai", "P11(B.Polis)", "P11B", "P11J", "P11B", "P11A", "P10", "Kompleks ABCDE", "Alamanda" ],
+      "inbound": [ "Alamanda", "Kompleks ABCDE", "P10", "P11A", "P11B", "P11J", "Putra Damai", "P9", "Putrajaya Sentral" ]
+    },
+    {
+      "route_name": "L08",
+      "outbound": [ "Putrajaya Sentral", "P9", "P11", "Putra Damai", "P11(B.Polis)", "P11B", "P11J", "P11B", "P11A", "P10", "P8", "P2,3,4", "Dataran Gemilang" ],
+      "inbound": [ "Dataran Gemilang", "P8", "P10", "P11A", "P11B", "P11J", "Putra Damai", "P9", "Putrajaya Sentral" ]
+    },
+    {
+      "route_name": "L10",
+      "outbound": [ "P&R P14", "Kompleks ABCDE", "Alamanda", "P16", "P18", "P4", "Apt. 5R3", "PICC", "P5" ],
+      "inbound": [ "P5", "Apt. 5R1", "P4", "P18", "P16", "Alamanda", "Kompleks ABCDE",  "P&R P14" ]
+    }
   ],
-  [
-    "route_name": "L02",
-    "destinations": [ "P&R P14", "P14", "Apt. P15", "Alamanda", "Kompleks ABCDE", "P8", "P8H (Ayer@8)", "P9", "P9F", "Putrajaya Sentral", "P9", "P9B", "P9F", "P9C/1", "P8H (Ayer@8)", "P8", "Kompleks ABCDE", "Alamanda", "Apt. P15", "P14", "P&R P14" ]
-  ],
-  [
-    "route_name": "L03",
-    "destinations": [ "Putrajaya Sentral", "P9", "P9B", "P9F", "P8H (Ayer@8)", "P2,3", "P18", "Wisma Putra", "P18", "P3,2", "P8H (Ayer@8)", "P9", "P9B", "P9F", "Putrajaya Sentral" ]
+  "route_journey" : [
+    {
+      "route_name": "J01",
+      "outbound": [ "P&R P14", "Alamanda", "Desa Pinggiran Putra" ],
+      "inbound": [ "Desa Pinggiran Putra", "Alamanda", "P&R P14" ]
+    },
+    {
+      "route_name": "J02",
+      "outbound": [ "CTT", "Domain", "MMU", "Cyberia", "MPS", "MAMPU", "Lim Kok Wing", "MDEC", "Bomba", "Putrajaya Sentral", "Alamanda", "Kompleks ABCDE", "Putrajaya Sentral" ],
+      "inbound": [ "Putrajaya Sentral", "Bomba", "MDEC", "HSBC", "CTT", "Domain", "MMU", "Cyberia", "MPS", "Lim Kok Wing", "CTT" ]
+    },
+    {
+      "route_name": "J03",
+      "outbound": [ "CTT", "Domain", "MMU", "Cyberia", "MPS", "TM Point", "Lim Kok Wing", "MAMPU", "TM Point", "Shell", "HSBC", "Street Mall", "Domain", "MMU", "Cyberia", "MPS", "CTT"]
+    },
+    {
+      "route_name": "J05",
+      "outbound": [ "Cyberia", "MMU", "D'Pulze", "HSBC", "Shaftbury", "Tasik Perdana", "Cyber Height", "Putrajaya Sentral" ],
+      "inbound": [ "Putrajaya Sentral", "Bomba", "MDEC", "HSBC", "CTT", "MMU", "Cyberia" ]
+    },
+    {
+      "route_name": "J08",
+      "outbound": [ "Putrajaya Sentral", "Masjid Putra", "Alamanda", "Everly Hotel", "IOI City Mall" ],
+      "inbound": [ "IOI City Mall", "Alamanda", "Everly Hotel", "Masjid Putra", "Putrajaya Sentral" ]
+    },
+    {
+      "route_name": "J09",
+      "outbound": [ "P&R P14", "Alamanda", "P14", "Kg Dato Abu Bakar Baginda", "UNITEN", "IOI City Mall" ],
+      "inbound": [ "IOI City Mall", "UNITEN", "Kg Dato Abu Bakar Baginda", "P14", "Alamanda", "P&R P14" ]
+    }
   ]
 }
+
 

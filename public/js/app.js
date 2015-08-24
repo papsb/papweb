@@ -17,8 +17,10 @@ angular.module('papweb', [ 'ui.router' ])
   .controller('RouteCtrl', [ '$scope', '$http', function ($scope, $http) {
     var vm = this;
 
-    $http.get('http://papsb.com.my/data/routes.json')
+    $http.get('../data/routes.json')
       .success(function (data) {
-        vm.routes = data;
+        vm.route_local = data.route_local;
+        vm.route_journey = data.route_journey;
+        console.log(vm.route_local);
       })
   }])
