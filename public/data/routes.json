@@ -71,6 +71,206 @@
       "outbound": [ "P&R P14", "Alamanda", "P14", "Kg Dato Abu Bakar Baginda", "UNITEN", "IOI City Mall" ],
       "inbound": [ "IOI City Mall", "UNITEN", "Kg Dato Abu Bakar Baginda", "P14", "Alamanda", "P&R P14" ]
     }
+  ],
+  "route_night" : [
+    {
+      "route_name": "N01",
+      "outbound": [ "Putrajaya Sentral", "P9", "P11J", "Putra Damai", "P11A", "P10", "P8", "P8H" ],
+      "inbound": [ "P8", "P10", "P11A", "Putra Damai", "P11J", "P9", "Putrajaya Sentral" ]
+    },
+    {
+      "route_name": "N02",
+      "outbound": [ "Putrajaya Sentral", "P9", "P9B", "P9G", "Kompleks ABCDE", "Alamanda", "P14", "Apt. P15" ],
+      "inbound": [ "Alamanda", "Kompleks ABCDE", "P9G", "P9B", "P9", "Putrajaya Sentral" ]
+    },
+    {
+      "route_name": "N03",
+      "outbound": [ "Putrajaya Sentral", "P9", "P9C/1", "P2,3", "P18", "P17", "P16" ],
+      "inbound": [ "P3,2", "P9C/1", "P9", "Putrajaya Sentral" ]
+    },
+    {
+      "route_name": "N04",
+      "outbound": [ "Putrajaya Sentral", "P8", "P2,3,4", "P5", "KPT", "Apt. 5R3", "Apt. 5R1" ],
+      "inbound": [ "P4,3,2", "P8", "Putrajaya Sentral" ]
+    },
+    {
+      "route_name": "N05",
+      "outbound": [ "P&R P14", "Alamanda", "P16", "P17", "P18", "P4", "Apt. 5R1", "P5", "Apt. 5R3" ],
+      "inbound": [ "P4", "P18", "P17", "P16", "Alamanda", "P&R P14" ]
+    },
+    {
+      "route_name": "N06",
+      "outbound": [ "P&R P14", "Alamanda", "P16" ],
+      "inbound": [ "Persiaran Timur", "P14", "P15", "P&R P14" ]
+    },
+    {
+      "route_name": "N07",
+      "outbound": [ "P&R P14", "Alamanda", "Kompleks ABCDE", "P10", "P11A", "P11B", "P11J", "Putra Damai" ],
+      "inbound": [ "P11A", "P10", "Alamanda", "P&R P14" ]
+    },
+    {
+      "route_name": "N08",
+      "outbound": [ "P&R P14", "Alamanda", "Kompleks ABCDE", "P9G", "P9B", "P9", "P8H" ],
+      "inbound": [ "P8", "Alamanda", "P&R P14" ]
+    }
+  ],
+  "route_direct" : [
+    {
+      "route_name": "D01",
+      "outbound": [ "P9 (Putra Harmoni)", "Kompleks ABCDE" ]
+    },
+    {
+      "route_name": "D02",
+      "outbound": [ "Kompleks ABCDE", "P9G", "P9", "Putrajaya Sentral" ]
+    },
+    {
+      "route_name": "D03",
+      "outbound": [ "P9F", "Fasa 12", "P9C/1", "P8H", "P8", "Kompleks ABCDE" ]
+    },
+    {
+      "route_name": "D04",
+      "outbound": [ "Kompleks ABCDE", "P9F", "Fasa 12", "P9C/1", "P8H", "P8" ]
+    },
+    {
+      "route_name": "D05",
+      "outbound": [ "P9F", "P9C/1", "P8H (Ayer@8)", "P2,3,4" ]
+    },
+    {
+      "route_name": "D05",
+      "outbound": [ "P4,3,2", "P8H (Ayer@8)", "P9C/1", "Fasa 12", "P9F", "P9" ]
+    },
+    {
+      "route_name": "D06",
+      "outbound": [ "P4,3,2", "P8H (Ayer@8)", "P9C/1", "Fasa 12", "P9F", "P9" ]
+    },
+    {
+      "route_name": "D07",
+      "outbound": [ "P9", "P9B", "P9G", "Kompleks ABCDE" ]
+    },
+    {
+      "route_name": "D08",
+      "outbound": [ "Kompleks ABCDE", "P9G", "P9B" ]
+    },
+    {
+      "route_name": "D09",
+      "outbound": [ "P11B", "P11J", "Putra Damai", "P11", "Kompleks ABCDE" ]
+    },
+    {
+      "route_name": "D10",
+      "outbound": [ "Kompleks ABCDE", "P10", "P11A", "P11B", "P11J", "Putra Damai" ]
+    },
+    {
+      "route_name": "D11",
+      "outbound": [ "P11B", "P11J", "Putra Damai", "P11", "P2,3,4" ]
+    },
+    {
+      "route_name": "D12",
+      "outbound": [ "P2,3,4", "P8", "P10", "P11A", "P11B", "P11J", "Putra Damai" ]
+    },
+    {
+      "route_name": "D13",
+      "outbound": [ "P14", "P15", "P4,3,2" ]
+    },
+    {
+      "route_name": "D14",
+      "outbound": [ "P4,3,2", "P14", "P15" ]
+    },
+    {
+      "route_name": "D15",
+      "outbound": [ "P5", "Kompleks ABCDE" ]
+    },
+    {
+      "route_name": "D16",
+      "outbound": [ "Kompleks ABCDE", "P5" ]
+    },
+    {
+      "route_name": "D17",
+      "outbound": [ "P17", "P16", "Kompleks ABCDE" ]
+    },
+    {
+      "route_name": "D18",
+      "outbound": [ "Kompleks ABCDE", "P16", "P17" ]
+    },
+    {
+      "route_name": "D19",
+      "outbound": [ "P17", "P18", "P2,3,4" ]
+    },
+    {
+      "route_name": "D20",
+      "outbound": [ "P2,3,4", "P18", "P17" ]
+    },
+    {
+      "route_name": "D21",
+      "outbound": [ "Desa Pinggiran Putra", "P5,4,3,2" ]
+    },
+    {
+      "route_name": "D22",
+      "outbound": [ "P2,3,4,5", "Desa Pinggiran Putra" ]
+    },
+    {
+      "route_name": "D23",
+      "outbound": [ "Desa Pinggiran Putra", "Kompleks ABCDE" ]
+    },
+    {
+      "route_name": "D24",
+      "outbound": [ "Kompleks ABCDE", "Desa Pinggiran Putra" ]
+    },
+    {
+      "route_name": "D25",
+      "outbound": [ "Putrajaya Sentral", "P2,3,4", "Wisma Putra" ]
+    },
+    {
+      "route_name": "D26",
+      "outbound": [ "Wisma Putra", "P4,3,2", "Putrajaya Sentral" ]
+    },
+    {
+      "route_name": "D27",
+      "outbound": [ "P9F", "FASA 12", "P9C/1", "P8H (Ayer@8)", "P2,3,4" ]
+    },
+    {
+      "route_name": "D28",
+      "outbound": [ "P2,3,4", "P9C/1", "P8H (Ayer@8)", "FASA 12" ]
+    },
+    {
+      "route_name": "D29",
+      "outbound": [ "Putrajaya Sentral", "P9", "P11J", "Putra Damai", "P11D", "P11C", "Putrajaya Sentral" ]
+    },
+    {
+      "route_name": "D30",
+      "outbound": [ "Alamanda", "Kompleks ABCDE", "Masjid Putra", "P2,3,4" ]
+    },
+    {
+      "route_name": "D31",
+      "outbound": [ "P18", "Lebuh Perdana Selatan", "Kompleks ABCDE" ]
+    },
+    {
+      "route_name": "D32",
+      "outbound": [ "Kompleks ABCDE", "Lebuh Perdana Selatan", "P18" ]
+    },
+    {
+      "route_name": "D33",
+      "outbound": [ "Apt. P15", "Taman Rimba", "P14", "Kompleks ABCDE" ]
+    },
+    {
+      "route_name": "D34",
+      "outbound": [ "Kompleks ABCDE", "P14", "Apt. P15", "Taman Rimba" ]
+    },
+    {
+      "route_name": "D35",
+      "outbound": [ "P9B", "P9G", "P2,3,4" ]
+    },
+    {
+      "route_name": "D36",
+      "outbound": [ "P4,3,2", "P9B", "P9G" ]
+    },
+    {
+      "route_name": "S01",
+      "outbound": [ "Putrajaya Sentral", "Kompleks ABCDE", "Putrajaya Sentral" ]
+    },
+    {
+      "route_name": "S02",
+      "outbound": [ "Putrajaya Sentral", "P4,5 (KPT)", "Putrajaya Sentral" ]
+    }
   ]
 }
 

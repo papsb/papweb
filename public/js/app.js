@@ -21,6 +21,7 @@ angular.module('papweb', [ 'ui.router' ])
       .success(function (data) {
         vm.route_local = data.route_local;
         vm.route_journey = data.route_journey;
-        console.log(vm.route_local);
+        vm.route_night = data.route_night;
+        vm.route_direct = data.route_direct;
       })
   }])

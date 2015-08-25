@@ -18,12 +18,25 @@
     <th><center>Destinasi</center></th>
   </tr>
   <tr ng-repeat="route in vm.route_local">
-    <td><center>{{ ::route.route_name }}</center></td>
+    <td><center><b>{{ ::route.route_name }}</b></center></td>
     <td>{{ ::route.inbound.join(' - ') }} - {{ ::route.outbound.join(' - ')}}</td>
   </tr>
 </table>
+<br/>
 
 <p><b>2. Laluan 'N' (Laluan Malam bermula dari 8.00 malam sehingga 12.00 tengah malam) kecuali pada Sabtu / Ahad dan cuti umum</b></p>
+
+<table id="t01">
+  <tr>
+    <th><center>Laluan</center></th>
+    <th><center>Destinasi</center></th>
+  </tr>
+  <tr ng-repeat="route in vm.route_night">
+    <td><center><b>{{ ::route.route_name }}</b></center></td>
+    <td>{{ ::route.inbound.join(' - ') }} - {{ ::route.outbound.join(' - ')}}</td>
+  </tr>
+</table>
+<br/>
 
 <p><b>3. Laluan 'J' (Laluan dari Putrajaya ke kawasan luar)</b></p>
 
@@ -33,12 +46,25 @@
     <th><center>Destinasi</center></th>
   </tr>
   <tr ng-repeat="route in vm.route_journey">
-    <td><center>{{ ::route.route_name }}</center></td>
+    <td><center><b>{{ ::route.route_name }}</b></center></td>
     <td>{{ ::route.inbound.join(' - ') }} - {{ ::route.outbound.join(' - ')}}</td>
   </tr>
 </table>
+<br/>
 
 <p><b>Perkhidmatan Bas Terus disediakan dari kawasan kediaman ke pejabat pada waktu puncak pagi dan petang hari bekerja. Waktu operasi ialah 6.30 pagi sehingga 8.30 pagi dan 4.30 petang sehingga 6.30 petang</b></p>
+
+<table id="t01">
+  <tr>
+    <th><center>Laluan</center></th>
+    <th><center>Destinasi</center></th>
+  </tr>
+  <tr ng-repeat="route in vm.route_direct">
+    <td><center><b>{{ ::route.route_name }}</b></center></td>
+    <td>{{ ::route.inbound.join(' - ') }} - {{ ::route.outbound.join(' - ')}}</td>
+  </tr>
+</table>
+<br/>
 
 <p><b>Perkhidmatan Bas Sekolah</b>
 <table id="t01">
@@ -75,5 +101,5 @@
     <td>P&R P14 - Sek 11(2)</td>
 </tr>
 </table>
-<br>
+<br/>
 
