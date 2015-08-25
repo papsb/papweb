@@ -28,10 +28,11 @@ function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
       url         : '/about',
       templateUrl : 'views/about/about.html',
       title       : 'Mengenai PAPSB',
+      // abstract    : true,
       controller  : function ($state){
         $state.go('.about-us');
       }
-    }) 
+    })
         .state('about.about-us', {
           url         : '/about-us',
           templateUrl : 'views/about/about.about-us.html',
@@ -61,11 +62,12 @@ function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
       controller  : function ($state){
         $state.go('.henti-henti');
       }
-    }) 
+    })
         .state('perkhidmatan-bas.henti-henti', {
           url         : '/bas-henti-henti',
           templateUrl : 'views/perkhidmatan-bas/perkhidmatan-bas.henti-henti.html',
           title       : 'Perkhidmatan Bas Henti-Henti',
+          controller  : 'RouteCtrl as vm'
         })
         .state('perkhidmatan-bas.tambang', {
           url         : '/jadual-tambang',

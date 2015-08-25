@@ -6,7 +6,7 @@
   <title data-ng-bind="$state.current.title + ' - Pengangkutan Awam Putrajaya Sdn. Bhd.'">PENGANGKUTAN AWAM PUTRAJAYA SDN BHD</title>
   <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="libs/bxslider-4/jquery.bxslider.css">
+  <link rel="stylesheet" href="libs/bxslider-4/dist/jquery.bxslider.css">
   <link rel="stylesheet" href="css/style.css">
   <style type="text/css">
     [ng-cloak].splash { display: block !important; }
@@ -34,7 +34,7 @@
               <li><a ui-sref="perkhidmatan-bas">Pengiklanan</a></li>
             </ul>
           </li>
-          <li ui-sref-active="active"><a ui-sref="berita-peristiwa"><i class="glyphicon glyphicon-camera"></i> Berita dan Peristiwa</a></li>
+          <li class="disabled" ui-sref-active="active"><a ui-sref="berita-peristiwa"><i class="glyphicon glyphicon-camera"></i> Berita dan Peristiwa</a></li>
         </ul>
       </div>
     </div>
@@ -79,6 +79,7 @@
           </div>
         </div>
       </div>
+<!--      <img src="img/busfest-tambang-percuma.jpg" alt="" class="img-100">-->
     </div>
     <div class="col-sm-3">
       <ng-include src="'views/sidebar.html'" scope="" onload=""></ng-include>
@@ -92,7 +93,7 @@
 <script type="text/javascript" src="libs/angular/angular.min.js"></script>
 <script type="text/javascript" src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="libs/angular-ui-router/release/angular-ui-router.min.js"></script>
-<script type="text/javascript" src="libs/bxslider-4/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="libs/bxslider-4/dist/jquery.bxslider.min.js"></script>
 <!-- end vendor script -->
 
 <!-- client script -->
@@ -100,7 +101,6 @@
 <script type="text/javascript" src="js/app.route.js"></script>
 <!-- end client script -->
 
-<!-- <script src="http://localhost:35729/livereload.js?snipver=1"></script> -->
-<script src="http://192.168.1.111:35729/livereload.js?snipver=1"></script>
+<script src="http://localhost:35729/livereload.js?snipver=1"></script>
 </body>
 </html>

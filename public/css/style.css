@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #F8E71C;
   background-color: #2C5D8D;
 }
-.navbar-default .navbar-nav > .dropdown.open > .dropdown-menu a { 
+.navbar-default .navbar-nav > .dropdown.open > .dropdown-menu a {
   color: #2C5D8D;
   font-weight: 400;
 }
@@ -127,10 +127,13 @@ h1, h2, h3, h4, h5, h6 {
            text-shadow: #ccc 0.5px 0.5px 0;
   -webkit-border-radius: 5px 5px 0 0;
           border-radius: 5px 5px 0 0;
+  -webkit-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.55);
+     -moz-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.55);
+          box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.55);
 }
 
 .kad-perkhidmatan > h4 a:hover {
-  color: #3e3e3e;
+  color: #222;
   text-decoration: none;
 }
 .kad-perkhidmatan > h4 a {
@@ -138,12 +141,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .kad-perkhidmatan img {
+  margin-bottom: 10px;
   height: auto;
   min-width: 100%;
   max-width: 100%;
   overflow: hidden;
   -webkit-border-radius: 0 0 5px 5px;
           border-radius: 0 0 5px 5px;
+  -webkit-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.55);
+     -moz-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.55);
+          box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.55);
 }
 
 .kad-perkhidmatan h4.kad-perkhidmatan-bas {
@@ -212,6 +219,7 @@ h1, h2, h3, h4, h5, h6 {
 .notis h4 {
   color: #4A4A4A;
   font-weight: bolder;
+  text-align: center;
 }
 
 .img-100,
@@ -278,9 +286,6 @@ footer .copyright {
 
 .bx-wrapper {
   margin-bottom: 0;
-}
-
-.bx-wrapper .bx-viewport {
   box-shadow: none;
   border: none;
   left: 0;
@@ -289,7 +294,8 @@ footer .copyright {
 /** Helper **/
 
 .nopadding { padding:0 !important; margin:0 !important; }
-.centertext { text-align: center; } .justifytext { text-align: justify; } 
+.centertext { text-align: center; }
+.justifytext { text-align: justify; }
 .lower-latin{ list-style: lower-latin outside none; }
 .lower-roman { list-style: lower-roman outside none; }
 .upper-latin{ list-style: upper-latin outside none; }

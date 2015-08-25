@@ -1,0 +1,25 @@
+{
+  [
+    "route_name": "L01",
+    "destinations": [ "Putrajaya Sentral", "P9", "P9G", "P8", "Kompleks ABCDE", "Alamanda", "P16", "P8", "P9G", "P9", "Putrajaya Sentral" ]
+  ],
+  [
+    "route_name": "L02",
+    "destinations": [ "P&R P14", "P14", "Apt. P15", "Alamanda", "Kompleks ABCDE", "P8", "P8H (Ayer@8)", "P9", "P9F", "Putrajaya Sentral", "P9", "P9B", "P9F", "P9C/1", "P8H (Ayer@8)", "P8", "Kompleks ABCDE", "Alamanda", "Apt. P15", "P14", "P&R P14" ]
+  ],
+  [
+"route_name": "L03"
+"destinations": [ "Putrajaya Sentral", "P9", "P9B", "P9F", P8H (Ayer@8), P2,3, P18, Wisma Putra, P18, P3,2, P8H (Ayer@8), P9, P9B, P9F, Putrajaya Sentral
+  ]
+L04
+Dari Putrajaya Sentral ke P9 - P9C/1 - P2,3,4,5 - PICC - Apt. 5R3 - P4,3,2 - P9C/1 - Putrajaya Sentral
+L05
+Dari P&R P14 ke P14 - Kompleks ABCDE - Alamanda - P16 - P17 - P18 - P,3,2 - P9G - Putrajaya Sentral - P9 - P9B - P9G - P8 - P2,3 - P18 - P17 - P16 - Alamanda - Kompleks ABCDE - P14 - P&R P14
+L07
+Dari Putrajaya Sentral ke P9 - P11 - Putra Damai - P11(B.Polis) - P11B - P11J - P11B - P11A - P10 - Kompleks ABCDE - Alamanda - Kompleks ABCDE - P10 - P11A - P11B - P11J - Putra Damai - P9 - Putrajaya Sentral
+L08
+Dari Putrajaya Sentral ke P9 - P11 - Putra Damai - P11(B.Polis) - P11B - P11J - P11B - P11A - P10 - P8 - P2,3,4 - Dataran Gemilang - P8 - P10 - P11A - P11B - P11J - Putra Damai - P9 - Putrajaya Sentral
+L10
+Dari P&R P14 ke Kompleks ABCDE - Alamanda - P16 - P18 - P4 - Apt. 5R3 - PICC - P5 - Apt. 5R1 - P4 - P18 - P16 - Alamanda - Kompleks ABCDE - P&R P14
+}
+
