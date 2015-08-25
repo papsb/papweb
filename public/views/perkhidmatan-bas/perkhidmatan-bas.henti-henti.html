@@ -61,7 +61,7 @@
   </tr>
   <tr ng-repeat="route in vm.route_direct">
     <td><center><b>{{ ::route.route_name }}</b></center></td>
-    <td>{{ ::route.inbound.join(' - ') }} - {{ ::route.outbound.join(' - ')}}</td>
+    <td>{{ ::route.outbound.join(' - ')}}</td>
   </tr>
 </table>
 <br/>
