@@ -11,6 +11,12 @@ angular.module('papweb')
 function papwebInit ($rootScope, $state, $stateParams) {
   $rootScope.$state = $state;
   $rootScope.$stateParams = $stateParams;
+  $rootScope.$on("$stateChangeStart", function (event, toState, toParams, fromState, fromParams) {
+    if (toState.redirectTo) {
+      event.preventDefault();
+      $state.go(toState.redirectTo, toParams)
+    }
+  });
 }
 
 function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
@@ -29,9 +35,7 @@ function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
       templateUrl : 'views/about/about.html',
       title       : 'Mengenai PAPSB',
       // abstract    : true,
-      controller  : function ($state){
-        $state.go('.about-us');
-      }
+      redirectTo  : 'about.about-us'
     })
         .state('about.about-us', {
           url         : '/about-us',
@@ -59,15 +63,13 @@ function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
       url         : '/perkhidmatan-bas',
       templateUrl : 'views/perkhidmatan-bas/perkhidmatan-bas.html',
       title       : 'Perkhidmatan Bas',
-      controller  : function ($state){
-        $state.go('.henti-henti');
-      }
+      controller  : 'RouteCtrl as vm',
+      redirectTo  : 'perkhidmatan-bas.henti-henti'
     })
         .state('perkhidmatan-bas.henti-henti', {
           url         : '/bas-henti-henti',
           templateUrl : 'views/perkhidmatan-bas/perkhidmatan-bas.henti-henti.html',
-          title       : 'Perkhidmatan Bas Henti-Henti',
-          controller  : 'RouteCtrl as vm'
+          title       : 'Perkhidmatan Bas Henti-Henti'
         })
         .state('perkhidmatan-bas.tambang', {
           url         : '/jadual-tambang',
@@ -90,9 +92,7 @@ function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
       url         : '/spektra',
       templateUrl : 'views/spektra/spektra.html',
       title       : 'Konsep SPEKTRA',
-      controller  : function ($state){
-        $state.go('.konsep');
-      }
+      redirectTo  : 'spekra.konsep'
     })
 
         .state('spektra.konsep', {
