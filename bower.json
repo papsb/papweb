@@ -1,0 +1,28 @@
+{
+  "name": "papweb",
+  "version": "0.0.0",
+  "homepage": "https://github.com/papsb/papweb",
+  "authors": [
+    "Kuntau <kuntau17@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.4",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "~3.3.5",
+    "bxslider-4": "~4.2.5",
+    "font-awesome": "~4.4.0",
+    "jquery": "~2.1.4"
+  }
+}
