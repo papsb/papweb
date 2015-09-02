@@ -54,7 +54,8 @@
     },
     {
       "route_name": "J03",
-      "outbound": [ "CTT", "Domain", "MMU", "Cyberia", "MPS", "TM Point", "Lim Kok Wing", "MAMPU", "TM Point", "Shell", "HSBC", "Street Mall", "Domain", "MMU", "Cyberia", "MPS", "CTT"]
+      "outbound": [ "CTT", "Domain", "MMU", "Cyberia", "MPS", "TM Point", "Lim Kok Wing" ],
+      "inbound": [ "MAMPU", "TM Point", "Shell", "HSBC", "Street Mall", "Domain", "MMU", "Cyberia", "MPS", "CTT" ]
     },
     {
       "route_name": "J05",
