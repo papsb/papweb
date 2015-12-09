@@ -33,7 +33,7 @@
     {
       "route_name": "L08",
       "outbound": [ "Putrajaya Sentral", "P9", "P11", "Putra Damai", "P11(B.Polis)", "P11B", "P11J", "P11B", "P11A", "P10", "P8", "P2,3,4", "Dataran Gemilang" ],
-      "inbound": [ "Dataran Gemilang", "P8", "P10", "P11A", "P11B", "P11J", "Putra Damai", "P9", "Putrajaya Sentral" ]
+      "inbound": [ "Dataran Gemilang", "P4,3,2", "P8", "P10", "P11A", "P11B", "P11J", "Putra Damai", "P9", "Putrajaya Sentral" ]
     },
     {
       "route_name": "L10",
