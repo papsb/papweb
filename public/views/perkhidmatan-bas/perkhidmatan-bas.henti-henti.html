@@ -19,7 +19,7 @@
   </tr>
   <tr ng-repeat="route in vm.route_local">
     <td><center><b>{{ ::route.route_name }}</b></center></td>
-    <td>{{ ::route.outbound.join(' - ') }} - {{ ::route.inbound.join(' - ')}}</td>
+    <td>{{ ::vm.combineAndSlice(route) }}</td>
   </tr>
 </table>
 <br/>
@@ -33,7 +33,7 @@
   </tr>
   <tr ng-repeat="route in vm.route_night">
     <td><center><b>{{ ::route.route_name }}</b></center></td>
-    <td>{{ ::route.outbound.join(' - ') }} - {{ ::route.inbound.join(' - ')}}</td>
+    <td>{{ ::vm.combineAndSlice(route) }}</td>
   </tr>
 </table>
 <br/>
@@ -47,7 +47,7 @@
   </tr>
   <tr ng-repeat="route in vm.route_journey">
     <td><center><b>{{ ::route.route_name }}</b></center></td>
-    <td>{{ ::route.outbound.join(' - ') }} - {{ ::route.inbound.join(' - ')}}</td>
+    <td>{{ ::vm.combineAndSlice(route) }}</td>
   </tr>
 </table>
 <br/>
@@ -61,7 +61,7 @@
   </tr>
   <tr ng-repeat="route in vm.route_direct">
     <td><center><b>{{ ::route.route_name }}</b></center></td>
-    <td>{{ ::route.outbound.join(' - ')}}</td>
+    <td>{{ ::vm.combineList(route) }}</td>
   </tr>
 </table>
 <br/>

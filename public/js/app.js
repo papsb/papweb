@@ -24,4 +24,17 @@ angular.module('papweb', [ 'ui.router' ])
         vm.route_night = data.route_night;
         vm.route_direct = data.route_direct;
       })
+      .error(function (data) {
+        console.log('GET ROUTES: Something went wrong');
+      });
+
+    vm.combineAndSlice = function (data) {
+      return data.outbound.join(" - ") + " - " +
+             data.inbound.slice(1).join(" - ")
+    }
+
+    vm.combineList = function (data) {
+      return data.outbound.join(" - ")
+    }
+
   }])
