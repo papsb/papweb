@@ -29,8 +29,9 @@ angular.module('papweb', [ 'ui.router' ])
       });
 
     vm.combineAndSlice = function (data) {
-      return data.outbound.join(" - ") + " - " +
-             data.inbound.slice(1).join(" - ")
+      return data.outbound.join(" - ") +
+             (data.inbound ? " - " : "") + //check if there is inbound route to add 'dash'
+             (data.inbound ? data.inbound.slice(1).join(" - ") : "")
     }
 
     vm.combineList = function (data) {
