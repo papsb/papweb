@@ -15,8 +15,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Oswald, Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: #222;
-  -webkit-text-shadow: #ccc 0.5px 0.5px 0;
-          text-shadow: #ccc 0.5px 0.5px 0;
+  -webkit-text-shadow: rgba(255,255,255,.55) 0.5px 0.5px 0;
+          text-shadow: rgba(255,255,255,.55) 0.5px 0.5px 0;
 }
 .container {
   background: white;
@@ -123,8 +123,8 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   overflow-x: hidden;
   height: 60px;
-  -webkite-text-shadow: #ccc 0.5px 0.5px 0;
-           text-shadow: #ccc 0.5px 0.5px 0;
+  -webkit-text-shadow: rgba(255,255,255,.55) 0.5px 0.5px 0;
+          text-shadow: rgba(255,255,255,.55) 0.5px 0.5px 0;
   -webkit-border-radius: 5px 5px 0 0;
           border-radius: 5px 5px 0 0;
   -webkit-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.55);
@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .kad-perkhidmatan h4.kad-tempat-letak-kereta {
-  background-color: #CB752A;
+  background-color: #ca884e;
 }
 
 .kad-perkhidmatan h4.kad-pengiklanan {
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .kad-perkhidmatan h4.kad-spektra {
-  background-color: #8E44AD;
+  background-color: #a269ba;
 }
 
 /** NAV SIDEBAR **/
