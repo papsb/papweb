@@ -61,7 +61,8 @@
   </tr>
   <tr ng-repeat="route in vm.route_direct">
     <td><center><b>{{ ::route.route_name }}</b></center></td>
-    <td>{{ ::vm.combineList(route) }}</td>
+    <td>{{ ::vm.combineAndSlice(route) }}</td>
+    <!-- <td>{{ ::vm.combineList(route) }}</td> -->
   </tr>
 </table>
 <br/>
