@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700|Oswald:700);
+@import url(//fonts.googleapis.com/css?family=Open+Sans|Oswald:700);
 
 header {
   border-top: solid 10px #326496;
@@ -6,8 +6,7 @@ header {
 }
 
 body {
-  font-family: 'Source Sans Pro', 'Helvetica Nueu', Helvetica, Calibri, Arial, sans-serif;
-  font-size: 16px;
+  font: 1.4em/1.75em 'Open Sans', 'Helvetica Nueu', Helvetica, Calibri, Arial, sans-serif;
   background: #f3f3f3;
 }
 
@@ -60,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar.navbar-default {
-  font-size: 14px;
+  font: 1em;
   border: 0;
   top: -1px;
 }
@@ -68,8 +67,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .navbar-nav > li > ul.dropdown-menu > li > a,
 .navbar-default .navbar-nav > li > a {
   color: #fff;
-  font-size: 14px;
-  font-weight: 300;
+  /* font: 1em 300; */
+  /* font-weight: 300; */
   /*letter-spacing: 0.03em;*/
   text-transform: uppercase;
 }
@@ -154,15 +153,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .kad-perkhidmatan h4.kad-perkhidmatan-bas {
-  background-color: #F8E71C;
+  background-color: #F8Ed60;
 }
 
 .kad-perkhidmatan h4.kad-putrajaya-sentral {
-  background-color: #50E3C2;
+  background-color: #64e3c6;
 }
 
 .kad-perkhidmatan h4.kad-park-and-ride {
-  background-color: #7ED321;
+  background-color: #89d338;
 }
 
 .kad-perkhidmatan h4.kad-tempat-letak-kereta {
@@ -170,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .kad-perkhidmatan h4.kad-pengiklanan {
-  background-color: #F05165;
+  background-color: #ef6274;
 }
 
 .kad-perkhidmatan h4.kad-spektra {
@@ -211,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px;
   border-radius: 5px;
   background: rgba(255,249,174,0.75);
-  border: 2px dashed #979797;
+  border: 2px dotted #979797;
   color: #D0021B;
   overflow: hidden;
 }
@@ -220,6 +219,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #4A4A4A;
   font-weight: bolder;
   text-align: center;
+}
+
+.notis p {
+  font: 1.1em/1.3em bolder;
 }
 
 .img-100,
@@ -273,8 +276,8 @@ footer .footer-heading h4 {
 footer .footer h4,
 footer .footer h5 {
   color: #fefefe;
-  -webkit-text-shadow: #333 0.5px 0.5px 0;
-          text-shadow: #333 0.5px 0.5px 0;
+  -webkit-text-shadow: rgba(0,0,0,.8) 0.5px 0.5px 0;
+          text-shadow: rgba(0,0,0,.8) 0.5px 0.5px 0;
 }
 
 footer .copyright {
