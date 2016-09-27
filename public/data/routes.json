@@ -318,7 +318,7 @@
       "inbound": [ "Desa Pinggiran Putra", "Alamanda", "P&R P14" ]
     },
     {
-      "route_name": "503",
+      "route_name": "T520",
       "outbound": [ "CTT", "Domain", "MMU", "Cyberia", "MPS", "MAMPU", "Lim Kok Wing", "MDEC", "Bomba", "Putrajaya Sentral", "Alamanda", "Kompleks ABCDE", "Putrajaya Sentral" ],
       "inbound": [ "Putrajaya Sentral", "Bomba", "MDEC", "HSBC", "CTT", "Domain", "MMU", "Cyberia", "MPS", "Lim Kok Wing", "CTT" ]
     }
