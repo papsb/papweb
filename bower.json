@@ -19,7 +19,7 @@
   ],
   "dependencies": {
     "angular": "~1.4.4",
-    "angular-ui-router": "~0.2.15",
+    "angular-ui-router": "~1.x",
     "bootstrap": "~3.3.5",
     "bxslider-4": "~4.2.5",
     "font-awesome": "~4.6.0",
