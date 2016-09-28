@@ -92,7 +92,7 @@ function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
       url         : '/spektra',
       templateUrl : 'views/spektra/spektra.html',
       title       : 'Konsep SPEKTRA',
-      redirectTo  : 'spekra.konsep'
+      redirectTo  : 'spektra.konsep'
     })
 
         .state('spektra.konsep', {
