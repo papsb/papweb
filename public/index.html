@@ -35,6 +35,7 @@
             </ul>
           </li>
           <li class="disabled" ui-sref-active="active"><a ui-sref="berita-peristiwa"><i class="glyphicon glyphicon-camera"></i> Berita dan Peristiwa</a></li>
+          <li class="disabled" ui-sref-active="active"><a ui-sref="berita-peristiwa"><i class="glyphicon glyphicon-camera"></i> Berita dan Peristiwa</a></li>
         </ul>
       </div>
     </div>
@@ -42,7 +43,7 @@
   <section class="row" ui-view>
     <div class="col-sm-9">
       <div class="row">
-        <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="col-xs-12 col-sm-6 col-md-4 ">
           <div class="kad-perkhidmatan">
             <h4 class="kad-perkhidmatan-bas"><a ui-sref="perkhidmatan-bas">PERKHIDMATAN BAS</a></h4>
             <img src="img/perkhidmatan-bas.jpg" alt="">
@@ -68,14 +69,32 @@
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="kad-perkhidmatan">
-            <h4 class="kad-pengiklanan"><a href="#">PENGIKLANAN</a></h4>
+            <h4 class="kad-spektra"><a ui-sref="spektra">SPEKTRA</a></h4>
+            <img src="img/spektra.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="kad-perkhidmatan">
+            <h4 class="kad-pengiklanan"><a ui-sref="pengiklanan">PENGIKLANAN</a></h4>
             <img src="img/pengiklanan.jpg" alt="">
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="kad-perkhidmatan">
-            <h4 class="kad-spektra"><a ui-sref="spektra">SPEKTRA</a></h4>
-            <img src="img/spektra.jpg" alt="">
+            <h4 class="kad-pengiklanan"><a ui-sref="tnt">TRAVEL & TOURS</a></h4>
+            <img src="img/pengiklanan.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="kad-perkhidmatan">
+            <h4 class="kad-pengiklanan"><a ui-sref="#">SEWAAN KENDERAAN</a></h4>
+            <img src="img/pengiklanan.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="kad-perkhidmatan">
+            <h4 class="kad-pengiklanan"><a ui-sref="#">SEWAAN TAPAK</a></h4>
+            <img src="img/pengiklanan.jpg" alt="">
           </div>
         </div>
       </div>
@@ -88,7 +107,7 @@
   <p>{{ }}</p>
   <ng-include src="'views/footer.html'"></ng-include>
 </div> <!-- end container -->
-  
+
 <!-- vendor script -->
 <script type="text/javascript" src="libs/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="libs/angular/angular.min.js"></script>
