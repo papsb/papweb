@@ -6,7 +6,7 @@ header {
 }
 
 body {
-  font: 1.25em/1.55em 'Open Sans', 'Helvetica Nueu', Helvetica, Calibri, Arial, sans-serif;
+  font: 1.25em/1.55em 'Open Sans', Helvetica, Arial, sans-serif;
   background: #f3f3f3;
 }
 
@@ -152,29 +152,15 @@ h1, h2, h3, h4, h5, h6 {
           box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.55);
 }
 
-.kad-perkhidmatan h4.kad-perkhidmatan-bas {
-  background-color: #F8Ed60;
-}
-
-.kad-perkhidmatan h4.kad-putrajaya-sentral {
-  background-color: #64e3c6;
-}
-
-.kad-perkhidmatan h4.kad-park-and-ride {
-  background-color: #89d338;
-}
-
-.kad-perkhidmatan h4.kad-tempat-letak-kereta {
-  background-color: #ca884e;
-}
-
-.kad-perkhidmatan h4.kad-pengiklanan {
-  background-color: #ef6274;
-}
-
-.kad-perkhidmatan h4.kad-spektra {
-  background-color: #a269ba;
-}
+.kad-perkhidmatan h4.kad-perkhidmatan-bas { background-color: #F8Ed60; }
+.kad-perkhidmatan h4.kad-putrajaya-sentral { background-color: #64e3c6; }
+.kad-perkhidmatan h4.kad-park-and-ride { background-color: #89d338; }
+.kad-perkhidmatan h4.kad-tempat-letak-kereta { background-color: #ca884e; }
+.kad-perkhidmatan h4.kad-spektra { background-color: #a269ba; }
+.kad-perkhidmatan h4.kad-pengiklanan { background-color: #ef6274; }
+.kad-perkhidmatan h4.kad-tnt { background-color: #6a74ae }
+.kad-perkhidmatan h4.kad-sewamotor { background-color: #bf6a6b; }
+.kad-perkhidmatan h4.kad-sewatapak { background-color: #6fc9ed; }
 
 /** NAV SIDEBAR **/
 
@@ -222,7 +208,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .notis p {
-  font: 1.1em/1.3em bolder;
+  /* font: 1.1em/1.3em 400 "Open Sans",sans-serif; */
+  /* font-size: 1.1em; */
+  line-height: 1.35em;
 }
 
 .img-100,
