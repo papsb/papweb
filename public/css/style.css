@@ -22,35 +22,17 @@ h1, h2, h3, h4, h5, h6 {
           box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.55);
 }
 .logo { padding-left: 20px; }
-.hotline {
-  margin-top: 20px;
-  float: right;
-}
-.hotline.heading {
-  font-weight: bold;
-  margin-right: 1em;
-}
-.hotline.ppj {
-  margin-top: 0;
-  margin-right: 1em;
-}
+.hotline { margin-top: 20px; float: right; }
+.hotline.heading { font-weight: bold; margin-right: 1em; }
+.hotline.ppj { margin-top: 0; margin-right: 1em; }
 .hotline.text { margin-right: 20px; }
 .hotline i { margin-right: 10px; }
-.hero-image {
-  max-width: 100%;
-  height: auto;
-  overflow:  hidden;
-}
+.hero-image { max-width: 100%; height: auto; overflow:  hidden; }
 .col-xs-6.col-sm-6 > .hotline.ppj { display: hidden; }
 
 /** NAVBAR **/
 
-.container.container-navbar {
-  background: #326496;
-  -webkit-border-radius: 0 0 5px 5px;
-          border-radius: 0 0 5px 5px;
-}
-
+.container.container-navbar { background: #326496; }
 .navbar.navbar-default {
   font: 1em;
   border: 0;
