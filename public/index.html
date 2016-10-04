@@ -17,7 +17,7 @@
 </head>
 <body>
 
-<div class="container" ng-cloak>
+<div id="wrapper" class="container" ng-cloak>
   <ng-include src="'views/header.html'" scope="" onload=""></ng-include>
   <div class="row">
     <div class="navbar navbar-default">
@@ -40,7 +40,7 @@
       </div>
     </div>
   </div>
-  <section class="row" ui-view>
+  <section id="content" class="row" ui-view>
     <div class="col-sm-9">
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-4 ">
@@ -117,8 +117,12 @@
 <!-- end vendor script -->
 
 <!-- client script -->
-<script type="text/javascript" src="js/app.js"></script>
-<script type="text/javascript" src="js/app.route.js"></script>
+<script type="text/javascript" src="js/papweb.js"></script>
+<script type="text/javascript" src="js/papweb.route.js"></script>
+<script type="text/javascript" src="js/about.route.js"></script>
+<script type="text/javascript" src="js/bas.route.js"></script>
+<script type="text/javascript" src="js/spektra.route.js"></script>
+<script type="text/javascript" src="js/pengiklanan.route.js"></script>
 <!-- end client script -->
 
 <!-- dev:start -->
