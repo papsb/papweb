@@ -92,7 +92,7 @@ function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
       url         : '/spektra',
       templateUrl : 'views/spektra/spektra.html',
       title       : 'Konsep SPEKTRA',
-      redirectTo  : 'spekra.konsep'
+      redirectTo  : 'spektra.konsep'
     })
 
         .state('spektra.konsep', {
@@ -119,6 +119,30 @@ function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
           url         : '/sistem-parkir-automatik',
           templateUrl : 'views/spektra/spektra.spa.html',
           title       : 'Sistem Parkir Automatik',
+        })
+
+    // pengiklanan route
+    .state('pengiklanan', {
+      url         : '/pengiklanan',
+      templateUrl : 'views/pengiklanan/pengiklanan.html',
+      title       : 'Pengiklanan',
+      redirectTo  : 'pengiklanan.overview'
+    })
+
+        .state('pengiklanan.overview', {
+          url         : '/overview',
+          templateUrl : 'views/pengiklanan/pengiklanan.overview.html',
+          title       : 'Konsep Pengiklanan',
+        })
+        .state('pengiklanan.bunting', {
+          url         : '/bunting',
+          templateUrl : 'views/pengiklanan/pengiklanan.bunting.html',
+          title       : 'Model Pengiklanan Bunting',
+        })
+        .state('pengiklanan.billboard', {
+          url         : '/billboard',
+          templateUrl : 'views/pengiklanan/pengiklanan.billboard.html',
+          title       : 'Model Pengiklanan Billboard',
         })
 
     // route for the putrajaya sentral section
