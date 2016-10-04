@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans|Oswald:700);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,600|Oswald:400,700);
 
 header { border-top: solid 10px #326496; }
 
@@ -14,8 +14,8 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-text-shadow: rgba(255,255,255,.55) 0.5px 0.5px 0;
           text-shadow: rgba(255,255,255,.55) 0.5px 0.5px 0;
 }
+h5, h6 { font-weight: 400; }
 .container {
-  /* background: #e2e1e0; */
   background: #fff;
   -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.55);
      -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.55);
@@ -62,11 +62,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /** NAVBAR -> DROPDOWN **/
 .dropdown-menu {
-  background-color: rgba(255,255,255, 0.9);
+  background-color: rgba(255,255,255, 1);
 }
 .navbar-default .navbar-nav > .dropdown.open > .dropdown-menu a {
   color: #2C5D8D;
-  font-weight: 400;
+  font-weight: 300;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
