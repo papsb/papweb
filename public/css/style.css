@@ -88,7 +88,7 @@ section ul.text { font: 1.1em/1.55em 'Open Sans', Helvetica, Arial, sans-serif; 
 section h2,
 section h4 {
   padding: 20px 0;
-  margin: 0;
+  /* margin: 0; */
   margin-bottom: 20px;
   text-align: center;
   -webkit-border-radius: 5px;
@@ -143,15 +143,15 @@ section h4 {
           border-radius: 0 0 5px 5px;
 }
 
-.kad-perkhidmatan-bas { background-color: #F8Ed60; }
-.kad-putrajaya-sentral { background-color: #64e3c6; }
-.kad-park-and-ride { background-color: #89d338; }
-.kad-tempat-letak-kereta { background-color: #ca884e; }
-.kad-spektra { background-color: #a269ba; }
-.kad-pengiklanan { background-color: #ef6274; }
-.kad-tnt { background-color: #6a74ae }
-.kad-sewamotor { background-color: #ccd661; }
-.kad-sewatapak { background-color: #6fc9ed; }
+.cyel1,.kad-perkhidmatan-bas { background-color: #F8Ed60; }
+.cblu1,.kad-putrajaya-sentral { background-color: #64e3c6; }
+.cgre1,.kad-park-and-ride { background-color: #89d338; }
+.cora1,.kad-tempat-letak-kereta { background-color: #ca884e; }
+.cpur1,.kad-spektra { background-color: #a269ba; }
+.cpin1,.kad-pengiklanan { background-color: #ef6274; }
+.cblu2,.kad-tnt { background-color: #6a74ae }
+.cyel2,.kad-sewamotor { background-color: #ccd661; }
+.cblu2,.kad-sewatapak { background-color: #6fc9ed; }
 
 /** NAV SIDEBAR **/
 
@@ -172,6 +172,9 @@ section h4 {
 /** SIDEBAR **/
 
 @media (max-width: 767px) {
+  .kad-perkhidmatan {
+    display: inherit;
+  }
   .sidebar {
     margin-top: 20px;
   }
@@ -215,7 +218,7 @@ footer {
   margin-top: 20px;
   background-color: #326496;
   color: white;
-  border-bottom: 35px solid #254B71;
+  /* border-bottom: 35px solid #254B71; */
 }
 
 .footer {
@@ -252,9 +255,12 @@ footer .footer h6 {
 }
 
 footer .copyright {
-  position: absolute;
-  margin-top: 10px;
+  margin: 0 -15px;
   text-transform: uppercase;
+  background-color: #254B71;
+}
+footer .copyright p {
+  padding: 15px;
 }
 
 /** slider plugin custom **/
@@ -266,6 +272,7 @@ footer .copyright {
   left: 0;
 }
 
+/** Table **/
 /** Helper **/
 
 .nopadding { padding:0 !important; margin:0 !important; }
