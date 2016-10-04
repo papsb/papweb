@@ -4,7 +4,7 @@
 * Description
 */
 
-angular.module('papweb', [ 'ui.router' ])
+angular.module('papweb', [ 'ui.router', 'angular-loading-bar', 'ngAnimate' ])
 
   .controller('HeaderCtrl', ['$scope', function($scope){
     var vm = this;
