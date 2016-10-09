@@ -28,7 +28,7 @@
           <li ui-sref-active="active"><a ui-sref="home"><i class="glyphicon glyphicon-home"></i> Laman Utama</a></li>
           <li ui-sref-active="active"><a ui-sref="about"><i class="glyphicon glyphicon-briefcase"></i> Mengenai PAPSB</a></li>
           <li ui-sref-active="active" class="dropdown" ng-class="{open: hover}" ng-mouseenter="hover = true" ng-mouseleave="hover=false">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-road"></i> Perkhidmatan <i class="fa fa-caret-down"></i></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-road"></i> Perkhidmatan <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a ui-sref="perkhidmatan-bas">Perkhidmatan Bas Henti-Henti</a></li>
               <li><a ui-sref="sentral">Putrajaya Sentral</a></li>
@@ -37,7 +37,7 @@
               <li><a ui-sref="perkhidmatan-bas">Pengiklanan</a></li>
             </ul>
           </li>
-          <li ui-sref-active="active"><a ui-sref="berita-peristiwa"><i class="glyphicon glyphicon-camera"></i> Berita dan Peristiwa</a></li>
+          <li class="disabled" ui-sref-active="active"><a ui-sref="berita-peristiwa"><i class="glyphicon glyphicon-camera"></i> Berita dan Peristiwa</a></li>
         </ul>
       </div>
     </div>
@@ -136,9 +136,9 @@
   </script>
 <!-- dev:end -->
 <!-- gnalytics:start -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-56266328-1', 'auto');ga('send', 'pageview');
-</script>
+<!-- <script> -->
+<!--   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google&#45;analytics.com/analytics.js','ga');ga('create', 'UA&#45;56266328&#45;1', 'auto');ga('send', 'pageview'); -->
+<!-- </script> -->
 <!-- gnalytics:end -->
 
 </body>
