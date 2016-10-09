@@ -197,6 +197,7 @@ section h4 {
   text-shadow: none;
 }
 .notis p { line-height: 1.35em; }
+.notis .aduan { font-size: .9em; }
 
 .img-100,
 .notis img {
@@ -256,7 +257,7 @@ footer .copyright {
   background-color: #254B71;
 }
 footer .copyright p {
-  padding: 15px;
+  padding: 10px 15px;
 }
 
 /** slider plugin custom **/
