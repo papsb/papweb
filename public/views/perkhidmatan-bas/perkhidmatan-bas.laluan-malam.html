@@ -1,16 +1,15 @@
 <h4 class="cora1">Laluan Malam @ Laluan `N`</h4>
 <h6>Waktu operasi: <i>(8.00 malam sehingga 12.00 tengah malam kecuali pada Sabtu / Ahad dan cuti umum</i></h6>
 
-<div class="table-responsive">
-  <table class="table table-striped">
-    <tr>
-      <th class="warning"><center>Laluan</center></th>
-      <th class="warning"><center>Destinasi</center></th>
-    </tr>
-    <tr ng-repeat="route in vm.route_night">
-      <td><center><b>{{ ::route.route_name }}</b></center></td>
-      <td>{{ ::vm.combineAndSlice(route) }}</td>
-    </tr>
-  </table>
-</div>
+<table class="table table-striped">
+  <tr>
+    <th class="warning"><center>Laluan</center></th>
+    <th class="warning"><center>Destinasi</center></th>
+  </tr>
+  <tr ng-repeat="route in vm.route_night">
+    <td><center><b>{{ ::route.route_name }}</b></center></td>
+    <td>{{ ::vm.combineAndSlice(route) }}</td>
+  </tr>
+</table>
+
 <br/>
