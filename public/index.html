@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="libs/angular-loading-bar/build/loading-bar.min.css">
   <link rel="stylesheet" href="libs/bxslider-4/dist/jquery.bxslider.css">
+  <!-- <link rel="stylesheet" href="libs/animate.css/animate.min.css"> -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animation.css">
   <style type="text/css">
     [ng-cloak].splash { display: block !important; }
     [ng-cloak] { display: none; }
@@ -35,7 +37,7 @@
               <li><a ui-sref="perkhidmatan-bas">Pengiklanan</a></li>
             </ul>
           </li>
-          <li class="disabled" ui-sref-active="active"><a ui-sref="berita-peristiwa"><i class="glyphicon glyphicon-camera"></i> Berita dan Peristiwa</a></li>
+          <li ui-sref-active="active"><a ui-sref="berita-peristiwa"><i class="glyphicon glyphicon-camera"></i> Berita dan Peristiwa</a></li>
         </ul>
       </div>
     </div>
@@ -44,55 +46,55 @@
     <div class="col-sm-9">
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-4 ">
-          <a ui-sref="perkhidmatan-bas" class="kad-perkhidmatan">
+          <a ui-sref="perkhidmatan-bas" class="kad-perkhidmatan" ng-class="{quimated: hov1, pop: hov1}" ng-mouseenter="hov1 = true" ng-mouseleave="hov1 = false">
             <h4 class="kad-perkhidmatan-bas">PERKHIDMATAN BAS</h4>
             <img src="img/core-business/perkhidmatan-bas.jpg" alt="">
           </a>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
-          <a ui-sref="sentral" class="kad-perkhidmatan">
+          <a ui-sref="sentral" class="kad-perkhidmatan" ng-class="{quimated: hov2, pop: hov2}" ng-mouseenter="hov2 = true" ng-mouseleave="hov2 = false">
             <h4 class="kad-putrajaya-sentral">PUTRAJAYA SENTRAL</h4>
             <img src="img/core-business/putrajaya-sentral.jpg" alt="">
           </a>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
-          <a ui-sref="park-n-ride" class="kad-perkhidmatan">
+          <a ui-sref="park-n-ride" class="kad-perkhidmatan" ng-class="{quimated: hov3, pop: hov3}" ng-mouseenter="hov3 = true" ng-mouseleave="hov3 = false">
             <h4 class="kad-park-and-ride">PARK &amp; RIDE</h4>
             <img src="img/core-business/park-and-ride.jpg" alt="">
           </a>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
-          <a ui-sref="tlk" class="kad-perkhidmatan">
+          <a ui-sref="tlk" class="kad-perkhidmatan" ng-class="{quimated: hov4, pop: hov4}" ng-mouseenter="hov4 = true" ng-mouseleave="hov4 = false">
             <h4 class="kad-tempat-letak-kereta">TEMPAT LETAK KERETA</h4>
             <img src="img/core-business/tempat-letak-kereta.jpg" alt="">
           </a>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
-          <a ui-sref="spektra" class="kad-perkhidmatan">
+          <a ui-sref="spektra" class="kad-perkhidmatan" ng-class="{quimated: hov5, pop: hov5}" ng-mouseenter="hov5 = true" ng-mouseleave="hov5 = false">
             <h4 class="kad-spektra">SPEKTRA</h4>
             <img src="img/core-business/spektra.jpg" alt="">
           </a>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
-          <a ui-sref="#" class="kad-perkhidmatan">
+          <a ui-sref="#" class="kad-perkhidmatan disabled" ng-class="{quimated: hov6, shake: hov6}" ng-mouseenter="hov6 = true" ng-mouseleave="hov6 = false">
             <h4 class="kad-sewatapak">SEWAAN TAPAK</h4>
             <img src="img/core-business/sewaan-tapak.jpg" alt="">
           </a>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
-          <a ui-sref="#" class="kad-perkhidmatan">
+          <a ui-sref="#" class="kad-perkhidmatan disabled" ng-class="{quimated: hov7, shake: hov7}" ng-mouseenter="hov7 = true" ng-mouseleave="hov7 = false">
             <h4 class="kad-pengiklanan">PENGIKLANAN</h4>
             <img src="img/core-business/putrajaya-advertising.jpg" alt="">
           </a>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
-          <a ui-sref="tnt" class="kad-perkhidmatan">
+          <a ui-sref="tnt" class="kad-perkhidmatan disabled" ng-class="{quimated: hov8, shake: hov8}" ng-mouseenter="hov8 = true" ng-mouseleave="hov8 = false">
             <h4 class="kad-tnt">TRAVEL & TOURS</h4>
             <img src="img/core-business/travel-and-tours.jpg" alt="">
           </a>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
-          <a ui-sref="#" class="kad-perkhidmatan">
+          <a ui-sref="#" class="kad-perkhidmatan disabled" ng-class="{quimated: hov9, shake: hov9}" ng-mouseenter="hov9 = true" ng-mouseleave="hov9 = false">
             <h4 class="kad-sewamotor">SEWAAN KENDERAAN</h4>
             <img src="img/core-business/nadiputra-trans.jpg" alt="">
           </a>
