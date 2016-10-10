@@ -12,7 +12,7 @@ angular.module('papweb')
       // angular.element('.bxslider').bxSlider();
       angular.element('#carousel').flexslider({
         animation: "slide",
-        controlNav: true,
+        controlNav: false,
         animationLoop: false,
         slideshow: false,
         itemWidth: 210,
