@@ -1,0 +1,10 @@
+{
+  "plugins": {
+    "node": {}
+  },
+  "libs": [
+    "angular",
+    "bootstrap",
+    "jquery"
+  ]
+}
