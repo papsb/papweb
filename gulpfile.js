@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var serve = require('gulp-serve');
 var livereload = require('gulp-livereload');
+var fs = require('fs');
 
 livereload.listen({
   "server": "localhost",
@@ -19,4 +20,9 @@ gulp.task('watch', ['serve'], function () {
     livereload.listen();
     livereload.changed(file.path);
   })
+})
+
+gulp.task('default', function () {
+  var files = fs.readdirSync('public/');
+  console.log(files);
 })
