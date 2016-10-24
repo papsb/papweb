@@ -20,7 +20,12 @@ function papwebInit ($rootScope, $state, $stateParams) {
 }
 
 function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
-  $locationProvider.hashPrefix('!');
+  $locationProvider
+    .html5Mode({
+      enabled: false,
+      requireBase: true
+    })
+    .hashPrefix('!');
   $urlRouterProvider.otherwise('/home'); // for any unmatched url, redirect here
 
   $stateProvider
