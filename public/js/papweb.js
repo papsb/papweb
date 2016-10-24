@@ -6,16 +6,14 @@
 
 angular.module('papweb', [ 'ui.router', 'angular-loading-bar', 'ngAnimate' ])
 
-  .controller('HeaderCtrl', ['$scope', function($scope){
-    var vm = this;
-
+  .controller('HeaderCtrl', ['$scope', function(){
     angular.element(document).ready(function () {
       angular.element('.bxslider').bxSlider();
     });
   }])
 
   .controller('RouteCtrl', [ '$scope', '$http', function ($scope, $http) {
-    var vm = this;
+    var vm = this
 
     $http.get('../data/routes.json')
       .success(function (data) {
@@ -25,7 +23,7 @@ angular.module('papweb', [ 'ui.router', 'angular-loading-bar', 'ngAnimate' ])
         vm.route_direct = data.route_direct;
       })
       .error(function (data) {
-        console.log('GET ROUTES: Something went wrong');
+        console.log('GET ROUTES: Something went wrong' + data);
       });
 
     vm.combineAndSlice = function (data) {

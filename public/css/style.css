@@ -136,15 +136,15 @@ section h4 {
           border-radius: 0 0 5px 5px;
 }
 
-.cyel1,.kad-perkhidmatan-bas { background-color: #F8Ed60; }
-.cblu1,.kad-putrajaya-sentral { background-color: #64e3c6; }
-.cgre1,.kad-park-and-ride { background-color: #89d338; }
+.cyel1,.kad-perkhidmatan-bas    { background-color: #F8Ed60; }
+.cblu1,.kad-putrajaya-sentral   { background-color: #64e3c6; }
+.cgre1,.kad-park-and-ride       { background-color: #89d338; }
 .cora1,.kad-tempat-letak-kereta { background-color: #ca884e; }
-.cpur1,.kad-spektra { background-color: #a269ba; }
-.cpin1,.kad-pengiklanan { background-color: #ef6274; }
-.cblu2,.kad-tnt { background-color: #6a74ae }
-.cyel2,.kad-sewamotor { background-color: #ccd661; }
-.cblu2,.kad-sewatapak { background-color: #6fc9ed; }
+.cpur1,.kad-spektra             { background-color: #a269ba; }
+.cpin1,.kad-pengiklanan         { background-color: #ef6274; }
+.cblu2,.kad-tnt                 { background-color: #6a74ae }
+.cyel2,.kad-sewamotor           { background-color: #ccd661; }
+.cblu2,.kad-sewatapak           { background-color: #6fc9ed; }
 
 /** NAV SIDEBAR **/
 
