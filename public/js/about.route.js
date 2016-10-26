@@ -18,9 +18,6 @@ function aboutInit ($rootScope, $state, $stateParams) {
 }
 
 function aboutRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
-  $locationProvider.hashPrefix('!');
-  $urlRouterProvider.otherwise('/home'); // for any unmatched url, redirect here
-
   $stateProvider
     // route for the about section
     .state('about', {

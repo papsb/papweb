@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <base href="/" target="" />
+  <base href="/" target="_self" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <title data-ng-bind="$state.current.title + ' - Pengangkutan Awam Putrajaya Travel & Tours Sdn. Bhd.'">PENGANGKUTAN AWAM PUTRAJAYA SDN BHD</title>
   <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
@@ -27,7 +29,7 @@
     <div class="navbar navbar-default">
       <div class="container container-navbar">
         <ul class="nav navbar-nav">
-          <li ui-sref-active="active"><a ui-sref="home"><i class="glyphicon glyphicon-home"></i> Laman Utama</a></li>
+          <li ui-sref-active="active"><a ui-sref="/"><i class="glyphicon glyphicon-home"></i> Laman Utama</a></li>
           <li ui-sref-active="active"><a ui-sref="about"><i class="glyphicon glyphicon-briefcase"></i> Mengenai PAPSB</a></li>
           <li ui-sref-active="active" class="dropdown" ng-class="{open: hover}" ng-mouseenter="hover = true" ng-mouseleave="hover=false">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-road"></i> Perkhidmatan <span class="caret"></span></a>

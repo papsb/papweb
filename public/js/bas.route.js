@@ -19,9 +19,6 @@ function basInit ($rootScope, $state, $stateParams) {
 }
 
 function basRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
-  $locationProvider.hashPrefix('!');
-  $urlRouterProvider.otherwise('/home'); // for any unmatched url, redirect here
-
   $stateProvider
     // route for the perkhidmatan bas section
     .state('perkhidmatan-bas', {

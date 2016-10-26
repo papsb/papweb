@@ -10,7 +10,6 @@ angular.module('papweb')
 
 function spektraRoute ($stateProvider) {
   $stateProvider
-    // route for the spektra section
     .state('spektra', {
       url         : '/spektra',
       templateUrl : 'views/spektra/spektra.html',

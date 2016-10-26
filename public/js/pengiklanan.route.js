@@ -20,9 +20,6 @@ function pengiklananInit ($rootScope, $state, $stateParams) {
 }
 
 function pengiklananRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
-  $locationProvider.hashPrefix('!');
-  $urlRouterProvider.otherwise('/home'); // for any unmatched url, redirect here
-
   $stateProvider
     // pengiklanan route
     .state('pengiklanan', {

@@ -26,11 +26,11 @@ function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
       requireBase: true
     })
     .hashPrefix('!');
-  $urlRouterProvider.otherwise('/home'); // for any unmatched url, redirect here
+  $urlRouterProvider.otherwise('/'); // for any unmatched url, redirect here
 
   $stateProvider
-    .state('home', {
-      url         : '/home',
+    .state('/', {
+      url         : '/',
       title       : 'Selamat Datang',
     })
     // route for the putrajaya sentral section
