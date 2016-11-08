@@ -1,0 +1,15 @@
+<h4 class="cblu1">LALUAN LUAR PUTRAJAYA</h4>
+<h6>Waktu Operasi: <i>6:00 pagi sehingga 10:00 malam (Tertakluk kepada laluan tertentu)</i></h6>
+
+<table class="table table-striped">
+  <tr>
+    <th class="warning"><center>Laluan</center></th>
+    <th class="warning"><center>Destinasi</center></th>
+  </tr>
+  <tr ng-repeat="route in vm.route_journey">
+    <td><center><b>{{ ::route.route_name }}</b></center></td>
+    <td>{{ ::vm.combineAndSlice(route) }}</td>
+  </tr>
+</table>
+
+<br/>

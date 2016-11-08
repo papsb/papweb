@@ -1,0 +1,16 @@
+<h4 class="cyel1">LALUAN TERUS</h4>
+<h5>Perkhidmatan Bas Terus disediakan dari kawasan kediaman ke Kompleks kerajaan</h5>
+<h6>Waktu operasi: <i>waktu puncak pagi dan petang hari bekerja sahaja (6:30 pagi - 8:30 pagi dan 4:30 petang - 6:30 petang)</i></h6>
+
+<table class="table table-striped">
+  <tr>
+    <th class="warning"><center>Laluan</center></th>
+    <th class="warning"><center>Destinasi</center></th>
+  </tr>
+  <tr ng-repeat="route in vm.route_direct">
+    <td><center><b>{{ ::route.route_name }}</b></center></td>
+    <td>{{ ::vm.combineAndSlice(route) }}</td>
+  </tr>
+</table>
+
+<br/>

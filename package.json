@@ -4,13 +4,15 @@
   "description": "PAPSB Website",
   "main": "gulpfile.js",
   "scripts": {
+    "lint": "eslint ./public/js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kuntau",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^3.7.1",
     "gulp": "^3.8.10",
-    "gulp-livereload": "^2.1.1",
+    "gulp-livereload": "^3.1.1",
     "gulp-serve": "^1.0.0"
   }
 }
