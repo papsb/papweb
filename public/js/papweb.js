@@ -12,6 +12,12 @@ angular.module('papweb', [ 'ui.router', 'angular-loading-bar', 'ngAnimate' ])
     });
   }])
 
+  .controller('PengumumanCtrl', ['$scope', function() {
+    angular.element(document).ready(function() {
+      angular.element('#pengumuman').modal('show');
+    })
+  }])
+
   .controller('RouteCtrl', [ '$scope', '$http', function ($scope, $http) {
     var vm = this
 
