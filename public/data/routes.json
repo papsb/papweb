@@ -315,7 +315,7 @@
     {
       "route_name": "BET 15",
       "outbound": [ "Bandar Saujana Putra", "Cyberjaya", "Putrajaya Sentral" ],
-      "inbound": []
+      "inbound": [ "Putrajaya Sentral", "Cyberjaya", "Bandar Saujana Putra" ]
     },
     {
       "route_name": "T502",
