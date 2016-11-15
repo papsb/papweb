@@ -7,12 +7,22 @@
 angular.module('papweb', [ 'ui.router', 'angular-loading-bar', 'ngAnimate' ])
 
   .controller('HeaderCtrl', ['$scope', function(){
-    angular.element(document).ready(function () {
-      angular.element('.bxslider').bxSlider();
-    });
+    var vm = this
+
+    vm.slider = {
+      caption: false,
+      multi_image: 2,
+      items: [
+        { caption: "Kompleks Perbadanan Putrajaya", url: "/img/slider/1.jpg" },
+        { caption: "Kompleks Instana Kehakiman", url: "/img/slider/2.jpg" }
+      ]
+    }
   }])
 
   .controller('PengumumanCtrl', ['$scope', function() {
+    var vm = this;
+    vm.pengumuman = false;
+
     angular.element(document).ready(function() {
       angular.element('#pengumuman').modal('show');
     })
