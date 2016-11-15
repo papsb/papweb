@@ -313,6 +313,11 @@
       "outbound": [ "Putrajaya Sentral", "Wisma Tani", "Presint 3,2", "Dataran Putra", "Kompleks ABCDE", "Hospital Serdang", "KTM Serdang" ]
     },
     {
+      "route_name": "BET 15",
+      "outbound": [ "Bandar Saujana Putra", "Cyberjaya", "Putrajaya Sentral" ],
+      "inbound": [ "Putrajaya Sentral", "Cyberjaya", "Bandar Saujana Putra" ]
+    },
+    {
       "route_name": "T502",
       "outbound": [ "P&R P14", "Alamanda", "Desa Pinggiran Putra" ],
       "inbound": [ "Desa Pinggiran Putra", "Alamanda", "P&R P14" ]
