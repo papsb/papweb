@@ -22,7 +22,7 @@ function papwebInit ($rootScope, $state, $stateParams) {
 function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
   $locationProvider
     .html5Mode({
-      enabled: false,
+      enabled: true,
       requireBase: true
     })
     .hashPrefix('!');

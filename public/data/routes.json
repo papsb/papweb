@@ -295,6 +295,11 @@
       "inbound": [ "IOI City Mall", "UNITEN", "Kg. Dato Abu Bakar Baginda", "Jalan P14", "Alamanda", "P&R P14" ]
     },
     {
+      "route_name": "520",
+      "outbound": [ "Putrajaya Sentral", "Persiaran Tasik", "Persiaran Multimedia (Shaftbury Square - MDEC - DHL - EDS - CTT - Cyberia Cresent)", "Persiaran Bestari (Cyberia - The Ark)" ],
+      "inbound": [ "Persiaran Bestari (Cyberia)", "Persiaran Multimedia (MMU - D`Pulze - HSBC - Innovation Centre - Century Square)", "Persiaran Tasik (Cyberheight)", "Putrajaya Sentral" ]
+    },
+    {
       "route_name": "521",
       "outbound": [ "Putrajaya Sentral", "Pekan Dengkil", "UiTM Dengkil" ],
       "inbound": [ "UiTM Dengkil", "Putrajaya Sentral" ]
@@ -311,6 +316,11 @@
     {
       "route_name": "BET 13 (Petang)",
       "outbound": [ "Putrajaya Sentral", "Wisma Tani", "Presint 3,2", "Dataran Putra", "Kompleks ABCDE", "Hospital Serdang", "KTM Serdang" ]
+    },
+    {
+      "route_name": "BET 15",
+      "outbound": [ "Bandar Saujana Putra", "Cyberjaya", "Putrajaya Sentral" ],
+      "inbound": [ "Putrajaya Sentral", "Cyberjaya", "Bandar Saujana Putra" ]
     },
     {
       "route_name": "T502",
