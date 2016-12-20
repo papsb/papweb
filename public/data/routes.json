@@ -329,8 +329,17 @@
     },
     {
       "route_name": "T520",
-      "outbound": [ "CTT", "Domain", "MMU", "Cyberia", "MPS", "MAMPU", "Lim Kok Wing", "MDEC", "Bomba", "Putrajaya Sentral", "Alamanda", "Kompleks ABCDE", "Putrajaya Sentral" ],
-      "inbound": [ "Putrajaya Sentral", "Bomba", "MDEC", "HSBC", "CTT", "Domain", "MMU", "Cyberia", "MPS", "Lim Kok Wing", "CTT" ]
+      "outbound": [ "CTT", "Lingkaran Cyberpoint Timur (Domain)", "Persiaran Multimedia (Opp. MMU)", "Persiaran Bestari (Cyberia)", "Persiaran Semarak Api (MPS - TM Point)", "Jalan Teknokrat (Lim Kok Wing University)", "Jalan Teknokrat 3 (Shell)", "Persiaran Multimedia (HSBC - Street Mall)", "Domain", "MMU", "Cyberia", "MPS", "CTT" ]
+    },
+    {
+      "route_name": "T521",
+      "outbound": [ "CTT", "Jalan Fauna 1 (Serin)", "LHDN", "KRU Studio", "Magic", "Hotel Tanyaa" ],
+      "inbound": [ "Hotel Tanyaa", "Magic", "KRU Studio", "LHDN", "Jalan Fauna 1 (Serin)", "Persiaran Bestari (Cyberia - The Ark)", "Persiaran Semarak Api", "Persiara Flora", "CTT" ]
+    },
+    {
+      "route_name": "T760",
+      "outbound": [ "Bandar Saujana Putra", "Universiti MAHSA", "Putra Height", "LRT Putra Height" ],
+      "inbound": [ "LRT Putra Height", "Putra Height", "Universiti MAHSA", "Bandar Saujana Putra" ]
     }
   ]
 }
