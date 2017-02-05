@@ -21,29 +21,43 @@
 </head>
 <body>
 
-<div id="wrapper" class="container" ng-cloak>
-  <ng-include src="'views/header.html'" scope="" onload=""></ng-include>
-  <div class="row">
-    <div class="navbar navbar-default">
-      <div class="container container-navbar">
-        <ul class="nav navbar-nav">
-          <li ui-sref-active="active"><a ui-sref="/"><i class="glyphicon glyphicon-home"></i> Laman Utama</a></li>
-          <li ui-sref-active="active"><a ui-sref="about"><i class="glyphicon glyphicon-briefcase"></i> Mengenai PAPSB</a></li>
-          <li ui-sref-active="active" class="dropdown" ng-class="{open: hover}" ng-mouseenter="hover = true" ng-mouseleave="hover=false">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-road"></i> Perkhidmatan <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a ui-sref="perkhidmatan-bas">Perkhidmatan Bas Henti-Henti</a></li>
-              <li><a ui-sref="sentral">Putrajaya Sentral</a></li>
-              <li><a ui-sref="park-n-ride">Park &amp; Ride</a></li>
-              <li><a ui-sref="tlk">Tempat Letak Kereta</a></li>
-              <li><a ui-sref="perkhidmatan-bas">Pengiklanan</a></li>
-            </ul>
-          </li>
-          <li class="disabled" ui-sref-active="active"><a ui-sref="berita-peristiwa"><i class="glyphicon glyphicon-camera"></i> Berita dan Peristiwa</a></li>
+<div class="navbar navbar-default">
+  <div class="container container-navbar">
+    <ul class="nav navbar-nav navbar-right">
+      <li ui-sref-active="active"><a ui-sref="/"><i class="glyphicon glyphicon-home"></i> Laman Utama</a></li>
+      <li ui-sref-active="active"><a ui-sref="about"><i class="glyphicon glyphicon-briefcase"></i> Mengenai PAPSB</a></li>
+      <li ui-sref-active="active" class="dropdown" ng-class="{open: hover}" ng-mouseenter="hover = true" ng-mouseleave="hover=false">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-road"></i> Perkhidmatan <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a ui-sref="perkhidmatan-bas">Perkhidmatan Bas Henti-Henti</a></li>
+          <li><a ui-sref="sentral">Putrajaya Sentral</a></li>
+          <li><a ui-sref="park-n-ride">Park &amp; Ride</a></li>
+          <li><a ui-sref="tlk">Tempat Letak Kereta</a></li>
+          <li><a ui-sref="perkhidmatan-bas">Pengiklanan</a></li>
         </ul>
+      </li>
+      <li class="disabled" ui-sref-active="active"><a ui-sref="berita-peristiwa"><i class="glyphicon glyphicon-camera"></i> Berita dan Peristiwa</a></li>
+    </ul>
+  </div>
+</div>
+
+<header class="row" ng-controller="HeaderCtrl as vm">
+  <div class="col-xs-12 nopadding">
+    <div id="header-slider" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div ng-repeat="item in vm.slider.items | limitTo: vm.slider.multi_image" class="item" ng-class="{ active: $first }">
+          <img ng-src="{{ item.url }}" alt="{{ item.caption }}">
+          <span ng-if="vm.slider.caption" class="carousel-caption">{{ item.caption }}</span>
+        </div>
       </div>
+      <a class="left carousel-control" href="#header-slider" data-slide="prev" onclick="event.preventDefault()"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#header-slider" data-slide="next" onclick="event.preventDefault()"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </div>
   </div>
+</header>
+
+<div id="wrapper" class="container" ng-cloak>
+
   <section id="content" class="row" ui-view>
     <div class="col-sm-9">
       <div class="row">

@@ -21,7 +21,7 @@ angular.module('papweb', [ 'ui.router', 'angular-loading-bar', 'ngAnimate' ])
 
   .controller('PengumumanCtrl', ['$scope', function() {
     var vm = this;
-    vm.pengumuman = true;
+    vm.pengumuman = false;
 
     angular.element(document).ready(function() {
       angular.element('#pengumuman').modal('show');
