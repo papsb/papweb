@@ -106,6 +106,15 @@ section h4 {
 }
 
 /** PRODUCT CARD **/
+.kad-perniagaan {
+  display: inline-block;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+  -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+          transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
 .kad-perkhidmatan {
   display: inline-block;
   margin-bottom: 25px;
