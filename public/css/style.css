@@ -106,13 +106,27 @@ section h4 {
 }
 
 /** PRODUCT CARD **/
+.outer-kad-perniagaan {
+  display: flex;
+}
 .kad-perniagaan {
-  display: inline-block;
+  /* display: inline-block; */
+  display: table-cell;
   margin-bottom: 25px;
-  border-radius: 5px;
+  width: 20%;
+  height: 475px;
+  background-color: #eee;
+  text-align: center;
   box-shadow: 0px 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
   -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
           transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.kad-perniagaan p {
+  font-weight: 800;
+  font-size: 2rem;
+}
+.kad-perniagaan img {
+  width: 80%;
 }
 
 .kad-perkhidmatan {
