@@ -57,4 +57,4 @@ function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
       templateUrl : 'views/berita-dan-peristiwa.html',
       title       : 'Berita & Peristiwa',
     })
-};
+}

@@ -4,7 +4,7 @@
 * Description
 */
 
-angular.module('papweb', [ 'ui.router', 'angular-loading-bar', 'ngAnimate' ])
+angular.module('papweb', [ 'ui.router', 'angular-loading-bar', 'ngAnimate', 'ngCookies' ])
 
   .controller('HeaderCtrl', ['$scope', function(){
     var vm = this
@@ -19,17 +19,26 @@ angular.module('papweb', [ 'ui.router', 'angular-loading-bar', 'ngAnimate' ])
     }
   }])
 
-  .controller('PengumumanCtrl', ['$scope', function() {
+  .controller('PengumumanCtrl', ['$scope', '$cookies', function($scope, $cookies) {
     var vm = this;
+    var cookiesCheck = $cookies.get('pengumuman');
+    var now = new Date();
+
     vm.pengumuman = true;
     vm.imgBase = "/img/makluman/";
     vm.imgName = "ppa1m-larai.jpg";
     vm.imgAlt = "Makluman PPA1M Larai, Presint 6";
     vm.imgPath = vm.imgBase + vm.imgName;
 
+    if (cookiesCheck) { vm.pengumuman = false }
+
     angular.element(document).ready(function() {
       angular.element('#pengumuman').modal('show');
     })
+
+    // calculate cookies to expire in an hour
+    now.setTime(now.getTime() + 1*3600*1000);
+    $cookies.put('pengumuman', true, { expires: now.toUTCString() });
   }])
 
   .controller('RouteCtrl', [ '$scope', '$http', function ($scope, $http) {
