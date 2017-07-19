@@ -117,7 +117,9 @@
             <div class="modal-title">MAKLUMAN UMUM</div>
           </div>
           <div class="modal-body">
-            <img ng-src="{{vm.imgPath}}" alt="{{vm.imgAlt}}" class="img-responsive">
+            <a href="{{vm.imgPath}}" title="{{ vm.imgAlt }}" target="_blank">
+              <img ng-src="{{vm.imgPath}}" alt="{{vm.imgAlt}}" class="img-responsive">
+            </a>
           </div>
         </div>
       </div>
@@ -141,6 +143,7 @@
 <script type="text/javascript" src="js/bas.route.js"></script>
 <script type="text/javascript" src="js/spektra.route.js"></script>
 <script type="text/javascript" src="js/pengiklanan.route.js"></script>
+<script type="text/javascript" src="js/percetakan.route.js"></script>
 <!-- end client script -->
 
 <!-- dev:start -->
