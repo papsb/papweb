@@ -22,15 +22,16 @@ function papwebInit ($rootScope, $state, $stateParams) {
 function papwebRoute ($stateProvider, $urlRouterProvider, $locationProvider) {
   $locationProvider
     .html5Mode({
-      enabled: false,
+      enabled: true,
       requireBase: true
     })
-    .hashPrefix('!');
+    // .hashPrefix('!');
   $urlRouterProvider.otherwise('/'); // for any unmatched url, redirect here
 
   $stateProvider
     .state('/', {
       url         : '/',
+      templateUrl : 'views/index.html',
       title       : 'Selamat Datang',
     })
     // route for the putrajaya sentral section

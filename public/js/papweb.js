@@ -24,7 +24,7 @@ angular.module('papweb', [ 'ui.router', 'angular-loading-bar', 'ngAnimate', 'ngC
     var cookiesCheck = $cookies.get('pengumuman');
     var now = new Date();
 
-    vm.pengumuman = true;
+    vm.pengumuman = false;
     vm.imgBase = "/img/makluman/";
     vm.imgName = "ppa1m-larai.jpg";
     vm.imgAlt = "Makluman PPA1M Larai, Presint 6";
