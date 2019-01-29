@@ -1,0 +1,258 @@
+
+.bgcolor_1 > h4 {
+  padding: 20px 10px 0 10px;
+  margin: 0;
+  text-align: center;
+  height: 60px;
+  background-color: pink;
+  -webkit-border-radius: 5px 5px 0 0;
+          border-radius: 5px 5px 0 0;
+}
+
+.bgcolor_2 > h4 {
+  padding: 20px 10px 0 10px;
+  margin: 0;
+  text-align: center;
+  height: 60px;
+  background-color:#31B404;
+  -webkit-border-radius: 5px 5px 0 0;
+          border-radius: 5px 5px 0 0;
+}
+
+.bgcolor_3 > h2,
+.bgcolor_3 > h4 {
+  padding: 20px 10px 0 10px;
+  margin: 0;
+  text-align: center;
+  height: 60px;
+  background-color: yellow;
+  -webkit-border-radius: 5px 5px 0 0;
+          border-radius: 5px 5px 0 0;
+}
+
+img.resize{
+    width:700px; /*can use % */
+    height: auto;
+}
+
+
+/* image */
+.image {
+    border: 10px solid #FFFFFF;
+    box-shadow: 5px 5px 5px #666;
+    float: left;
+    height: 125px;
+    margin: 10px;
+    overflow: hidden;
+    width: 125px;
+    cursor:pointer;
+}
+
+/* zoom in image */
+
+.zoomin img {
+  height: auto;
+  width: 700px;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.zoomin img:hover {
+  width: 600px;
+  height: 600px;
+}
+
+/* Zoom Out Image */
+
+.zoomout img {
+  height: 400px;
+  width: 400px;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.zoomout img:hover {
+  width: 125px;
+  height: 125px;
+}
+
+/* move horizontal image */
+
+.movehorizontal img {
+  margin-left: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+
+.movehorizontal img:hover {
+  margin-left: -250px;
+}
+
+/* move vertical */
+
+.movevertical img {
+  margin-top: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+
+.movevertical img:hover {
+  margin-top: -250px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: #326496;
+}
+
+p.one {
+  border-width: 3px;
+  border-color: #326496;
+  background-color: #326496;
+}
+p.two {
+  background-color: #E0F2F7;
+  padding: 10pt;
+}
+
+ul.one {
+  background-color: #E0F2F7;
+}
+ul.two {
+  background-color: #326496;
+}
+
+.list-group > a {
+  color: #fff;
+}
+
+.list-group-item {
+    background-color: #326496;
+}
+
+/*cubaan*/
+.list-group > .active {
+    color: #F8E71C;
+    background-color: #254B71;
+}
+
+.list-group > a:hover,
+.list-group > a:focus {
+    color: #F8E71C;
+    background-color: #2C5D8D;
+}
+
+.list-group > .active:hover{
+    color: #F8E71C;
+    background-color: #2C5D8D;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #326496;
+  border-color: #357ebd
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #3071a9;
+  border-color: #285e8e
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+  background-image: none
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #428bca;
+  border-color: #357ebd
+}
+
+.btn-primary .badge {
+  color: #428bca;
+  background-color: #fff
+}
+
+/* Responsive Styles */
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100% \9;
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 7px;
+  text-align: auto;
+}
+table#t01 tr:nth-child(even) {
+  background-color: #FFFFFF;
+}
+table#t01 tr:nth-child(odd) {
+  background-color:#E0F2F7;
+}
+table#t01 th	{
+  background-color: #326496;
+  color: white;
+}
+
+.zoom {
+  width: 40%;
+  -webkit-transition: width 1.4s ease-in-out;
+  -moz-transition: width 1.4s ease-in-out;
+  -o-transition: width 1.4s ease-in-out;
+  transition: width 1.4s ease-in-out;
+}
+.zoom:hover {
+  width: 90%;
+}
+
+.outset {border-style: outset;
+}

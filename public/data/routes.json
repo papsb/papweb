@@ -34,6 +34,11 @@
       "route_name": "L10",
       "outbound": [ "P&R P14", "Kompleks ABCDE", "Alamanda", "P16", "P18", "P4", "Apt. 5R3", "PICC", "P5" ],
       "inbound": [ "P5", "Apt. 5R1", "P4", "P18", "P16", "Alamanda", "Kompleks ABCDE",  "P&R P14" ]
+    },
+    {
+      "route_name": "L15",
+      "outbound": [ "Putrajaya Sentral", "Dataran Gemilang", "Persiaran Perdana P4,3,2", "Masjid Putra", "Kompleks ABCDE" ],
+      "inbound": [ "Masjid Putra", "Persiaran Perdana P2,3,4", "Dataran Gemilang",  "Putrajaya Sentral" ]
     }
   ],
   "route_night" : [
@@ -280,11 +285,6 @@
       "inbound": [ "KTM Serdang", "Minlon", "IOI City Mall", "Hospital Serdang", "Alamanda", "Kompleks ABCDE", "Dataran Putra", "Jabatan Kastam", "Putrajaya Sentral" ]
     },
     {
-      "route_name": "503",
-      "outbound": [ "Putrajaya Sentral", "Persiaran Apec (P&R - Plaza FSPM - Motorola)", "Persiaran Multimedia (DHL - EDS - CTT - Cyberia Cresent)", "Persiaran Sepang", "Jalan Puchong", "Persiaran Puchong Utama", "AEON BIG Puchong Utama" ],
-      "inbound": [ "AEON BIG Puchong Utama", "Persiaran Puchong Utama", "Jalan Puchong", "Persiaran Sepang", " Persiaran Multimedia (VL - Cyberia - MMU - D`Pulze - HSBC - Innovation Centre)", "Persiaran Apec (MDEC - FSBM - Mahindra - Bomba)", "Putrajaya Sentral" ]
-    },
-    {
       "route_name": "505",
       "outbound": [ "P&R P14", "Alamanda", "Jalan P14", "Kg. Dato Abu Bakar Baginda", "UNITEN", "IOI City Mall" ],
       "inbound": [ "IOI City Mall", "UNITEN", "Kg. Dato Abu Bakar Baginda", "Jalan P14", "Alamanda", "P&R P14" ]
@@ -298,11 +298,6 @@
       "route_name": "521",
       "outbound": [ "Putrajaya Sentral", "Pekan Dengkil", "UiTM Dengkil" ],
       "inbound": [ "UiTM Dengkil", "Putrajaya Sentral" ]
-    },
-    {
-      "route_name": "608",
-      "outbound": [ "Pulau Meranti", "TESCO Extra", "AEON BIG Puchong Utama", "Batu 14 Puchong", "TESCO Puchong", "IOI Puchong" ],
-      "inbound": [ "IOI Puchong", "TESCO Puchong", "Batu 14 Puchong", "AEON Big Puchong Utama", "TESCO Extra", "Pulau Meranti" ]
     },
     {
       "route_name": "BET 13 (Pagi)",

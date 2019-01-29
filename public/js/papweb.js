@@ -21,7 +21,11 @@ angular.module('papweb', [ 'ui.router', 'angular-loading-bar', 'ngAnimate' ])
 
   .controller('PengumumanCtrl', ['$scope', function() {
     var vm = this;
-    vm.pengumuman = true;
+    vm.pengumuman = false;
+    vm.imgBase = "/img/makluman/";
+    vm.imgName = "400-14082018-NotisMakluman-Nadiputra.jpg";
+    vm.imgAlt = "Notis Makluman Nadiputra";
+    vm.imgPath = vm.imgBase + vm.imgName;
 
     angular.element(document).ready(function() {
       angular.element('#pengumuman').modal('show');
